@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import iot from './iot.jpg';
 
 
 
@@ -95,8 +95,7 @@ export default function Services() {
         <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
           <img
             className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-            src="https://cdn.discordapp.com/attachments/1008571037862080542/1081034319881052191/anlxgh_iot_internet_of_things_6bc7d6e2-c469-4ad9-accd-56f0ed75a9fc.png"
-            alt="Image Description"
+            src={iot}
           />
         </div>
         <div className="mt-7">
