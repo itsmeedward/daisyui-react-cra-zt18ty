@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import iot from './iot.jpg';
 import web from './web.png';
+import mobile from './mobile.jpg';
+
 
 
 
