@@ -173,7 +173,7 @@ export default function Services() {
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img
           className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-          src="https://cdn.discordapp.com/attachments/989268300473192561/1081042488296489040/newbieonebi_mobile_app_development_mobile_app_development_andor_aad27c82-4dbb-48ba-82cc-b811b6b51257.png"
+          src={mobile}
           alt="Image Description"
         />
         <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
