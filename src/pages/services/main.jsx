@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import iot from './iot.jpg';
 import web from './web.png';
 import mobile from './mobile.jpg';
+import ai from './ai.jpg';
+
 
 
 
@@ -101,7 +103,11 @@ export default function Services() {
             className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
             src={iot}
           />
+           <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-yellow-500 text-white py-1.5 px-3 ">
+            Soon
+          </span>
         </div>
+        
         <div className="mt-7">
           <h3 className="text-xl font-semibold  group-hover:text-gray-600 Discover">
             Internet Of Things(IoT)
@@ -109,7 +115,7 @@ export default function Services() {
           <p className="mt-3  Discover">
           IoT (Internet of Things) is revolutionizing the way we live, work, and interact with technology. At Greathill, we specialize in developing innovative IoT solutions that help businesses streamline operations, increase efficiency, and drive growth. 
           </p>
-          <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
+          <p className="mt-5 inline-flex items-center gap-x-1.5 text-gray-600 decoration-2 group-hover:underline font-medium">
             Discover
             <svg
               className="w-2.5 h-2.5"
@@ -176,6 +182,9 @@ export default function Services() {
           src={mobile}
           alt="Image Description"
         />
+         <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-yellow-500 text-white py-1.5 px-3 ">
+            Soon
+          </span>
         <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
          
         </span>
@@ -187,7 +196,7 @@ export default function Services() {
         <p className="mt-3  Discover">
         We're experts in creating mobile apps that engage and delight users. Our team of experienced developers can bring your vision to life with custom solutions that are tailored to your specific needs. From simple apps to complex, multi-platform solutions, we have the experience and expertise to deliver the mobile experience your users crave. 
         </p>
-        <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
+        <p className="mt-5 inline-flex items-center gap-x-1.5 text-gray-600 decoration-2 group-hover:underline font-medium">
           Discover
           <svg
             className="w-2.5 h-2.5"
@@ -212,9 +221,12 @@ export default function Services() {
       <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img
           className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-          src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          src={ai}
           alt="Image Description"
         />
+         <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-yellow-500 text-white py-1.5 px-3 ">
+            Soon
+          </span>
       </div>
       <div className="mt-7">
         <h3 className="text-xl font-semibold  group-hover:text-gray-600 ">
@@ -223,7 +235,7 @@ export default function Services() {
         <p className="mt-3  ">
         Our team of skilled data scientists and engineers are dedicated to creating intelligent solutions that solve real-world problems and drive business success. Whether it's machine learning, natural language processing, or computer vision, we have the expertise to develop custom AI solutions that meet your unique needs.
         </p>
-        <p className="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
+        <p className="mt-5 inline-flex items-center gap-x-1.5 text-gray-600 decoration-2 group-hover:underline font-medium">
           Discover
           <svg
             className="w-2.5 h-2.5"
