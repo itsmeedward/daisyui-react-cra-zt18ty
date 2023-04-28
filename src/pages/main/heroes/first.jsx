@@ -44,7 +44,7 @@ function First() {
         className="mt-8 mb-8 lg:mb-12 text-4xl lg:text-6xl font-semibold"
         data-config-id="header"
       >
-        Take care of your performance.Every day.With  <span className="text-blue-600 font-semibold">Greathill</span>
+       {currentMessage}.Every day.With  <span className="text-blue-600 font-semibold">Greathill</span>
       </h2>
       <p
         className="max-w-3xl mx-auto mb-8 lg:mb-12 text-xl text-gray-500"
