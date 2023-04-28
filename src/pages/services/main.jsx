@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import iot from './iot.jpg';
+import web from './web.png';
+
 
 
 
@@ -57,7 +59,7 @@ export default function Services() {
         <div className="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
           <img
             className="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-            src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+            src={web}
           />
           <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-red-500 text-white py-1.5 px-3 ">
             Hot
