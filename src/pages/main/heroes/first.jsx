@@ -71,7 +71,15 @@ function First() {
               </p>
               <div className="max-w-lg mx-auto">
                 <div className="flex flex-wrap -m-2">
-                 
+                  <div className="w-full md:flex-1 p-2">
+                    <input
+                      className="px-6 py-3.5 w-full text-lg text-black font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-black rounded-full"
+                      id="headerLightReverseInput5-1"
+                      type="text"
+                      placeholder="Email address"
+                      data-config-id="auto-input-4-5"
+                    />
+                  </div>
                   <div className="w-full md:w-auto p-2">
                     <div className="flex flex-wrap justify-center -m-2">
                       <div className="w-full md:w-auto p-2">
