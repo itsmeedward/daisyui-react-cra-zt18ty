@@ -26,6 +26,83 @@ function First() {
       <section
         data-section-id={1}
         data-share=""
+        data-category="headers-light-reverse"
+        data-component-id="26f94a33_05_awz"
+        className="pt-6 pb-20 bg-gray-50 overflow-hidden"
+      >
+        <div className="container mx-auto px-4">
+          <div
+            className="px-8 py-20 bg-white overflow-hidden border border-gray-100 rounded-3xl"
+            style={{
+              backgroundImage:
+                'url("https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401_960_720.jpg")',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+            }}
+            data-config-id="auto-img-3"
+          >
+            <div className="md:max-w-2xl text-center mx-auto">
+              <span
+                className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest"
+                data-config-id="auto-txt-13-5"
+              >
+                Best caption here
+              </span>
+              <h1
+                className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
+                data-config-id="auto-txt-14-5"
+              >
+                <span data-config-id="auto-txt-18-5">Build what you </span>
+                <span
+                  className="text-transparent bg-clip-text bg-gradient-orange-light"
+                  data-config-id="auto-txt-15-5"
+                >
+                  imagine
+                </span>
+                <span data-config-id="auto-txt-19-5"> without compromise.</span>
+              </h1>
+              <p
+                className="mb-8 text-xl text-gray-400 font-bold"
+                data-config-id="auto-txt-16-5"
+              >
+                Thousands of companies trust in our apps, you could be part of
+                our community too.
+              </p>
+              <div className="max-w-lg mx-auto">
+                <div className="flex flex-wrap -m-2">
+                  <div className="w-full md:flex-1 p-2">
+                    <input
+                      className="px-6 py-3.5 w-full text-lg text-black font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-black rounded-full"
+                      id="headerLightReverseInput5-1"
+                      type="text"
+                      placeholder="Email address"
+                      data-config-id="auto-input-4-5"
+                    />
+                  </div>
+                  <div className="w-full md:w-auto p-2">
+                    <div className="flex flex-wrap justify-center -m-2">
+                      <div className="w-full md:w-auto p-2">
+                        <a
+                          className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
+                          href="#"
+                          data-config-id="auto-txt-17-5"
+                        >
+                          Get Started
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        data-section-id={1}
+        data-share=""
         data-category="headers"
         data-component-id="44d0b9e2_06_awz"
         className="relative pb-20"
@@ -68,7 +145,7 @@ function First() {
             Get started
           </Link>
         </div>
-        
+
         <div
           className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50"
           data-config-id="toggle-mobile-2"
@@ -165,8 +242,6 @@ function First() {
           </nav>
         </div>
       </section>
-
-     
     </>
   );
 }
