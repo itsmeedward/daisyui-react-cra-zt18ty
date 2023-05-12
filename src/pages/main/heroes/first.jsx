@@ -35,7 +35,7 @@ function First() {
             className="px-8 py-20 bg-white overflow-hidden border border-gray-100 rounded-3xl"
             style={{
               backgroundImage:
-                'url("https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401_960_720.jpg")',
+                'url("https://wallpapercave.com/wp/wp8593341.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
@@ -55,7 +55,7 @@ function First() {
               >
                 <span data-config-id="auto-txt-18-5">Build what you </span>
                 <span
-                  className="text-transparent bg-clip-text bg-gradient-orange-light"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500 ..."
                   data-config-id="auto-txt-15-5"
                 >
                   imagine
@@ -71,15 +71,7 @@ function First() {
               </p>
               <div className="max-w-lg mx-auto">
                 <div className="flex flex-wrap -m-2">
-                  <div className="w-full md:flex-1 p-2">
-                    <input
-                      className="px-6 py-3.5 w-full text-lg text-black font-bold bg-white outline-none focus:ring-4 focus:ring-blue-200 placeholder-black rounded-full"
-                      id="headerLightReverseInput5-1"
-                      type="text"
-                      placeholder="Email address"
-                      data-config-id="auto-input-4-5"
-                    />
-                  </div>
+                 
                   <div className="w-full md:w-auto p-2">
                     <div className="flex flex-wrap justify-center -m-2">
                       <div className="w-full md:w-auto p-2">
