@@ -86,7 +86,7 @@ About Us      </h2>
           className="text-base md:text-lg text-coolGray-400 font-medium"
           data-config-id="auto-txt-11-1"
         >
-          — John Doe, CEO &amp; Founder
+          — Our Community 
         </span>
       </div>
       <p
