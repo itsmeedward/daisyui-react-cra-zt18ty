@@ -83,13 +83,15 @@ function First() {
                   <div className="w-full md:w-auto p-2">
                     <div className="flex flex-wrap justify-center -m-2">
                       <div className="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
-                          data-config-id="auto-txt-17-5"
-                        >
-                          Get Started
-                        </a>
+                        
+          <Link
+            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-blue-600 hover:bg-blue-300 text-white rounded transition duration-200"
+            to="/contact"
+            data-config-id="hero-primary-action "
+          >
+            {' '}
+            Get started
+          </Link>
                       </div>
                     </div>
                   </div>
@@ -127,23 +129,8 @@ function First() {
             {currentMessage}.Every day.With{' '}
             <span className="text-blue-600 font-semibold">Greathill</span>
           </h2>
-          <p
-            className="max-w-3xl mx-auto mb-8 lg:mb-12 text-xl text-gray-500"
-            data-config-id="desc"
-          >
-            Build a well-presented brand that everyone will love. Take care to
-            develop resources continually and integrity them with previous
-            projects.
-          </p>
+        
 
-          <Link
-            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-blue-600 hover:bg-blue-300 text-white rounded transition duration-200"
-            to="/contact"
-            data-config-id="hero-primary-action "
-          >
-            {' '}
-            Get started
-          </Link>
         </div>
 
         <div

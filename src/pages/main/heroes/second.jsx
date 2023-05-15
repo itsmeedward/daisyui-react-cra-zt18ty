@@ -10,6 +10,138 @@ export default function Second() {
 <section
   data-section-id={1}
   data-share=""
+  data-category="how-it-works"
+  data-component-id="eb023c5f_05_awz"
+  className="py-20 2xl:py-40 bg-gray-800 overflow-hidden"
+>
+  <div className="container px-4 mx-auto">
+    <div className="mb-10 max-w-xl mx-auto mb-24 text-center">
+      <span className="text-lg font-bold text-blue-500" data-config-id="label">
+        How it works
+      </span>
+      <h2
+        className="mt-12 text-5xl lg:text-6xl text-white font-bold font-heading"
+        data-config-id="header"
+      >
+        Build and launch without problems
+      </h2>
+    </div>
+    <div className="relative px-8 lg:pr-0 lg:pl-12 2xl:pl-24 mb-14 lg:mb-40 bg-gray-600 rounded-xl overflow-hidden">
+      <div className="w-full lg:w-1/3 pt-12 lg:py-12">
+        <h3
+          className="mb-4 text-xl font-bold text-white"
+          data-config-id="title"
+        >
+          How it work? Steps
+        </h3>
+        <p className="text-xl text-gray-300" data-config-id="post-desc">
+          Over general, dignissim accumsan, lacus vel dictum semper, agittis
+          sollicitudin.
+        </p>
+      </div>
+      <img
+        className="lg:absolute top-0 right-0 bottom-0 h-full w-full lg:w-1/3 object-cover"
+        src="zospace-assets/images/illustration-men-phone.svg"
+        alt=""
+        data-config-id="image"
+      />
+    </div>
+    <div className="relative flex flex-wrap justify-center -mx-10 mb-20">
+      <img
+        className="hidden lg:block absolute inset-y-0 -mr-80 -mt-16"
+        src="zospace-assets/lines/dots-gray.svg"
+        alt=""
+        data-config-id="auto-img-1"
+      />
+      <div className="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
+        <div className="relative flex">
+          <img
+            className="hidden lg:block absolute top-0 right-0 -mr-20 -mt-16"
+            src="zospace-assets/lines/dots-gray.svg"
+            alt=""
+            data-config-id="auto-img-2"
+          />
+          <div className="mr-8">
+            <span className="flex justify-center items-center w-14 h-14 text-white bg-blue-500 text-lg font-bold rounded-full">
+              1
+            </span>
+          </div>
+          <div className="max-w-xs">
+            <h3
+              className="mb-6 text-lg font-bold font-heading text-white"
+              data-config-id="header1"
+            >
+              Register account
+            </h3>
+            <p className="text-lg text-gray-200" data-config-id="desc1">
+              It’s over, maecenas tincidunt malesuada dolor sit amet malesuada.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
+        <div className="flex">
+          <div className="mr-8">
+            <span className="flex justify-center items-center w-14 h-14 text-white bg-blue-500 text-lg font-bold rounded-full">
+              2
+            </span>
+          </div>
+          <div className="max-w-xs">
+            <h3
+              className="mb-6 text-lg font-bold font-heading text-white"
+              data-config-id="header2"
+            >
+              Customize tools
+            </h3>
+            <p className="text-lg text-gray-200" data-config-id="desc2">
+              The brown me quam, sagittis porttitor lorem vel, commodo fringilla
+              nisl.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full lg:w-1/3 px-10">
+        <div className="flex">
+          <div className="mr-8">
+            <span className="flex justify-center items-center w-14 h-14 text-white bg-blue-500 text-lg font-bold rounded-full">
+              3
+            </span>
+          </div>
+          <div className="max-w-xs">
+            <h3
+              className="mb-6 text-lg font-bold font-heading text-white"
+              data-config-id="header3"
+            >
+              Work with your team
+            </h3>
+            <p className="text-lg text-gray-200" data-config-id="desc3">
+              The time, this accumsan augue, posuere posuere elit lorem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="text-center">
+      <a
+        className="inline-block px-12 py-5 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200"
+        href="#"
+        data-config-id="primary-action"
+      >
+        How it works?
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    
+<section
+  data-section-id={1}
+  data-share=""
   data-category="features-light-reverse"
   data-component-id="3e9407ed_04_awz"
   className="py-10 overflow-hidden"
