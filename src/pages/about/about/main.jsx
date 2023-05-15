@@ -21,35 +21,29 @@ export default function About(){
     <div className="md:max-w-2xl mx-auto mb-12 text-center">
       <div className="flex items-center justify-center">
         <p
-          className="inline-block text-green-500 font-medium"
+          className="inline-block text-blue-500 font-medium"
           data-config-id="auto-txt-1-1"
         >
-          John Doe
+          
         </p>
-        <span className="mx-1 text-green-500" data-config-id="auto-txt-2-1">
+        <span className="mx-1 text-blue-500" data-config-id="auto-txt-2-1">
           •
         </span>
         <p
-          className="inline-block text-green-500 font-medium"
+          className="inline-block text-blue-500 font-medium"
           data-config-id="auto-txt-3-1"
         >
-          19 Jan 2022
+          8 May 2021
         </p>
       </div>
       <h2
         className="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter"
         data-config-id="auto-txt-4-1"
       >
-        Lorem ipsum dolor sit amet
-      </h2>
-      <p
-        className="mb-6 text-lg md:text-xl font-medium text-coolGray-500"
-        data-config-id="auto-txt-5-1"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
+About Us      </h2>
+    
       <div
-        className="inline-block py-1 px-3 text-xs leading-5 text-green-500 font-medium uppercase bg-green-100 rounded-full shadow-sm"
+        className="inline-block py-1 px-3 text-xs leading-5 text-blue-500 font-medium uppercase bg-green-100 rounded-full shadow-sm"
         data-config-id="auto-txt-6-1"
       >
         Technology
@@ -57,7 +51,7 @@ export default function About(){
     </div>
     <div className="mb-10 mx-auto max-w-max overflow-hidden rounded-lg">
       <img
-        src="flex-ui-assets/images/blog-content/content-photo1.jpg"
+        src="https://cdn.pixabay.com/photo/2021/03/29/12/16/stairs-6133971_960_720.jpg"
         alt=""
         data-config-id="auto-img-1-1"
       />
@@ -67,34 +61,26 @@ export default function About(){
         className="mb-8 pb-10 text-lg md:text-xl font-medium text-coolGray-500 border-b border-coolGray-100"
         data-config-id="auto-txt-7-1"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa.
-        Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non
-        massa enim vitae duis mattis. Vel in ultricies vel fringilla.
+        Greathill is a cutting-edge technology company based in the beautiful country of Montenegro. Established in 2021, Greathill has quickly emerged as a leading player in the technology industry, dedicated to providing innovative computer solutions from A to Z.
       </p>
       <h3
         className="mb-4 text-2xl md:text-3xl font-semibold text-coolGray-800"
         data-config-id="auto-txt-8-1"
       >
-        Header 1
+       Welcome to Greathill: Empowering Digital Transformation with Innovative Technology Solutions
       </h3>
       <p
         className="mb-4 text-base md:text-lg text-coolGray-500"
         data-config-id="auto-txt-9-1"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa.
-        Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non
-        massa enim vitae duis mattis. Vel in ultricies vel fringilla.
+       With a team of highly skilled professionals, Greathill is driven by a passion for leveraging the latest advancements in technology to transform businesses and empower individuals. The company prides itself on delivering comprehensive and tailored solutions that address the diverse needs of its clients.
       </p>
-      <div className="mb-6 p-6 border-l-2 border-green-500">
+      <div className="mb-6 p-6 border-l-2 border-blue-500">
         <p
           className="mb-4 text-xl md:text-2xl leading-tight font-medium text-coolGray-800"
           data-config-id="auto-txt-10-1"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo
-          massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus.
+         Success is not just about reaching new heights; it's about empowering others to soar alongside you. At Greathill, we strive to uplift and inspire through our innovative technology solutions, creating a brighter future for businesses and individuals alike
         </p>
         <span
           className="text-base md:text-lg text-coolGray-400 font-medium"
@@ -107,14 +93,11 @@ export default function About(){
         className="mb-6 text-base md:text-lg text-coolGray-500"
         data-config-id="auto-txt-12-1"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa.
-        Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non
-        massa enim vitae duis mattis. Vel in ultricies vel fringilla.
+       Greathill's range of services covers a wide spectrum of technology domains, including software development, web development, mobile app development, cloud computing, artificial intelligence, cybersecurity, and more. They believe in harnessing the power of these technologies to drive digital transformation and help their clients stay ahead in an ever-evolving digital landscape.
       </p>
       <div className="mb-4 max-w-max overflow-hidden rounded-md">
         <img
-          src="flex-ui-assets/images/blog-content/content-photo2.jpg"
+          src="https://cdn.pixabay.com/photo/2017/04/23/19/30/earth-2254769_960_720.jpg"
           alt=""
           data-config-id="auto-img-2-1"
         />
@@ -136,27 +119,18 @@ export default function About(){
         className="mb-4 text-2xl md:text-3xl font-semibold text-coolGray-800"
         data-config-id="auto-txt-16-1"
       >
-        Header 1
-      </h3>
+Greathill: Leading the Way in Technology Advancements from Montenegro      </h3>
       <p
         className="mb-14 text-base md:text-lg text-coolGray-500"
         data-config-id="auto-txt-17-1"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa.
-        Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non
-        massa enim vitae duis mattis. Vel in ultricies vel fringilla.
+       What sets Greathill apart is their commitment to excellence and innovation. They stay at the forefront of technological advancements, continuously exploring new possibilities and pushing the boundaries of what is possible. By staying up-to-date with the latest trends and best practices, Greathill ensures that their clients receive state-of-the-art solutions that are both efficient and scalable.
       </p>
       <p
         className="mb-4 text-base md:text-lg text-coolGray-500"
         data-config-id="auto-txt-18-1"
       >
-        Sagittis et eu at elementum, quis in. Proin praesent volutpat egestas
-        sociis sit lorem nunc nunc sit. Eget diam curabitur mi ac. Auctor rutrum
-        lacus malesuada massa ornare et. Vulputate consectetur ac ultrices at
-        diam dui eget fringilla tincidunt. Arcu sit dignissim massa erat cursus
-        vulputate gravida id. Sed quis auctor vulputate hac elementum gravida
-        cursus dis.
+        The company's client-centric approach is built on collaboration and understanding. Greathill takes the time to thoroughly comprehend their clients' requirements, challenges, and goals. This enables them to provide personalized solutions that align with their clients' unique visions and objectives.
       </p>
       <ol className="list-decimal list-inside md:px-5 mb-14 text-base md:text-lg text-coolGray-500">
         <li data-config-id="auto-txt-19-1">
@@ -172,25 +146,16 @@ export default function About(){
       </ol>
       <p className="mb-10 pb-10 text-base md:text-lg text-coolGray-500 border-b border-coolGray-100">
         <span data-config-id="auto-txt-22-1">
-          Vestibulum placerat magna nulla, sit amet venenatis sapien consequat
-          ut. Cras pulvinar, lorem tristique pharetra finibus, dui erat finibus
-          orci, a vehicula arcu sapien id metus. Quisque quis lorem a sem
-          porttitor feugiat. Etiam quis congue est. Donec fermentum ac libero a
-          pretium. Nulla nisl sem, euismod ut eros vitae, egestas scelerisque
-          enim.
+        Greathill's track record speaks for itself, with a diverse portfolio of successful projects across various industries. Whether it's developing sophisticated software systems, designing intuitive user interfaces, implementing secure and robust cloud infrastructures, or leveraging data analytics to drive informed decision-making, Greathill consistently delivers exceptional results.
         </span>
         <a
-          className="text-green-500 hover:text-green-600 underline"
+          className="text-blue-500 hover:text-blue-600 underline"
           href="#"
           data-config-id="auto-txt-23-1"
         >
-          Vivamus id pharetra massa
         </a>
         <span data-config-id="auto-txt-24-1">
-          . Nulla aliquet erat elit, a gravida dui efficitur vel. Sed pulvinar
-          diam sed neque ullamcorper semper. Nulla elementum arcu lacus, quis
-          porta nisl posuere varius. Quisque tempus libero sed urna posuere
-          hendrerit.
+        Furthermore, as a socially responsible company, Greathill is committed to giving back to the community. They actively participate in initiatives to foster technological literacy, support educational programs, and promote diversity and inclusion in the tech industry.
         </span>
       </p>
       <div className="flex items-center justify-center">
