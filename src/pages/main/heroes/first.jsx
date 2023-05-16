@@ -24,11 +24,11 @@ function First() {
         data-share=""
         data-category="headers-light-reverse"
         data-component-id="26f94a33_05_awz"
-        className="pt-6 pb-20 bg-gray-50 overflow-hidden"
+        className="pt-6 bg-orange-70 overflow-hidden"
       >
         <div className="container mx-auto px-4">
           <div
-            className="px-8 py-20 bg-white overflow-hidden border border-gray-100 rounded-3xl"
+            className="px-8 py-20  overflow-hidden rounded-2xl"
             style={{
               backgroundImage:
                 'url("https://wallpapercave.com/wp/wp8593341.jpg")',
@@ -102,7 +102,7 @@ function First() {
         data-share=""
         data-category="headers"
         data-component-id="44d0b9e2_06_awz"
-        className="relative pb-20"
+        className="relative "
       >
         <img
           className="hidden lg:block lg:absolute top-0 left-0 mt-32"
