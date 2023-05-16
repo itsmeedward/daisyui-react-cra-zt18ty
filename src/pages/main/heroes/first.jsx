@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const messages = [
-  'Start your journey ',
-  'Launch Your Voyage',
-  'Begin Your Adventure',
-];
+const messages = ['Smart ', 'Better', 'Wise'];
 
 function First() {
   const [messageIndex, setMessageIndex] = useState(0);
@@ -53,7 +49,7 @@ function First() {
                 className="font-heading mb-6 text-5xl lg:text-6xl text-white font-black tracking-tight"
                 data-config-id="auto-txt-14-5"
               >
-                <span data-config-id="auto-txt-18-5">Build what you </span>
+                <span data-config-id="auto-txt-18-5">Have what you </span>
                 <span
                   className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500 ..."
                   data-config-id="auto-txt-15-5"
@@ -83,15 +79,14 @@ function First() {
                   <div className="w-full md:w-auto p-2">
                     <div className="flex flex-wrap justify-center -m-2">
                       <div className="w-full md:w-auto p-2">
-                        
-          <Link
-            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-blue-600 hover:bg-blue-300 text-white rounded transition duration-200"
-            to="/contact"
-            data-config-id="hero-primary-action "
-          >
-            {' '}
-            Get started
-          </Link>
+                        <Link
+                          className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-blue-600 hover:bg-blue-300 text-white rounded transition duration-200"
+                          to="/contact"
+                          data-config-id="hero-primary-action "
+                        >
+                          {' '}
+                          Get started
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -129,8 +124,6 @@ function First() {
             {currentMessage}.Every day.With{' '}
             <span className="text-blue-600 font-semibold">Greathill</span>
           </h2>
-        
-
         </div>
 
         <div
