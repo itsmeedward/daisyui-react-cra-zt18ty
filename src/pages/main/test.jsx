@@ -1,6 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 
 const Test = () => {
+ 
+  useEffect(() => {
+    document.title = 'Dynamic Title';
+  }, []);
+
+
   const vantaRef = useRef(null);
 
   useEffect(() => {

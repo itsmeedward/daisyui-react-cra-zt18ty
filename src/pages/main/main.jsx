@@ -9,6 +9,7 @@ import Sixth from './heroes/sixth';
 import Third from './heroes/third';
 
 export default function Main() {
+  
   const glass = {
     backgroundColor: 'rgba(255, 255, 255, 0.3)',
     backdropFilter: 'blur(10px)',

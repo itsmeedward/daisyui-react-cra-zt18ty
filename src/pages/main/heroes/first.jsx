@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 const messages = ['Smart ', 'Better', 'Wise'];
 
 function First() {
+  useEffect(() => {
+    document.title = 'Greathill | Home';
+  }, []);
+
   const [messageIndex, setMessageIndex] = useState(0);
   const [currentMessage, setCurrentMessage] = useState(messages[0]);
 
