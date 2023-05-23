@@ -10,7 +10,7 @@ export default function About(){
   data-share=""
   data-category="blog-content-white-pattern"
   data-component-id="5d44a180_01_awz"
-  className="py-16 md:py-24 bg-white"
+  className="py-16 md:py-24  "
   style={{
     backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
     backgroundPosition: "center top"
@@ -160,7 +160,7 @@ Greathill: Leading the Way in Technology Advancements from Montenegro      </h3>
       </p>
       <div className="flex items-center justify-center">
         <a
-          className="inline-flex mr-4 items-center justify-center py-2 px-4 text-coolGray-300 hover:text-coolGray-400 bg-white hover:bg-coolGray-100 border border-coolGray-200 hover:border-coolGray-300 rounded-md shadow-md transition duration-200"
+          className="inline-flex mr-4 items-center justify-center py-2 px-4 text-coolGray-300 hover:text-coolGray-400   hover:bg-coolGray-100 border border-coolGray-200 hover:border-coolGray-300 rounded-md shadow-md transition duration-200"
           href="#"
         >
           <svg
@@ -184,7 +184,7 @@ Greathill: Leading the Way in Technology Advancements from Montenegro      </h3>
           </span>
         </a>
         <a
-          className="inline-flex mr-2 h-9 w-9 items-center justify-center text-coolGray-500 hover:text-coolGray-600 bg-white hover:bg-coolGray-100 border border-coolGray-200 rounded-md shadow-md transition duration-200"
+          className="inline-flex mr-2 h-9 w-9 items-center justify-center text-coolGray-500 hover:text-coolGray-600   hover:bg-coolGray-100 border border-coolGray-200 rounded-md shadow-md transition duration-200"
           href="#"
         >
           <svg
@@ -202,7 +202,7 @@ Greathill: Leading the Way in Technology Advancements from Montenegro      </h3>
           </svg>
         </a>
         <a
-          className="inline-flex mr-2 h-9 w-9 items-center justify-center text-coolGray-500 hover:text-coolGray-600 bg-white hover:bg-coolGray-100 border border-coolGray-200 rounded-md shadow-md transition duration-200"
+          className="inline-flex mr-2 h-9 w-9 items-center justify-center text-coolGray-500 hover:text-coolGray-600   hover:bg-coolGray-100 border border-coolGray-200 rounded-md shadow-md transition duration-200"
           href="#"
         >
           <svg
@@ -220,7 +220,7 @@ Greathill: Leading the Way in Technology Advancements from Montenegro      </h3>
           </svg>
         </a>
         <a
-          className="inline-flex h-9 w-9 items-center justify-center text-coolGray-500 hover:text-coolGray-600 bg-white hover:bg-coolGray-100 border border-coolGray-200 rounded-md shadow-md transition duration-200"
+          className="inline-flex h-9 w-9 items-center justify-center text-coolGray-500 hover:text-coolGray-600   hover:bg-coolGray-100 border border-coolGray-200 rounded-md shadow-md transition duration-200"
           href="#"
         >
           <svg
