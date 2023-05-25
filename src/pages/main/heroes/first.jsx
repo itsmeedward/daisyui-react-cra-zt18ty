@@ -28,7 +28,7 @@ function First() {
         data-share=""
         data-category="headers-light-reverse"
         data-component-id="26f94a33_05_awz"
-        className="pt-6 bg-orange-70 overflow-hidden"
+        className="pt-6 bg-orange-70 overflow-hidden bg-white"
       >
         <div className="container mx-auto px-4">
           <div
