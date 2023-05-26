@@ -148,7 +148,30 @@ export default function Header() {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </Link>
+            
             <ul className="p-2">
+            <ul className="menu bg-base-100 w-56 p-2 rounded-box">
+  <li className="menu-title">
+    <span>Web</span>
+  </li>
+  <li><a>Item 1</a>
+  <ul className="menu bg-base-100  bg-secondary text-secondary-content w-56 p-2 rounded-box">
+  <li className="menu-title">
+    <span>Category</span>
+  </li>
+  <li><a>Item 1</a></li>
+  <li><a>Item 2</a></li>
+  
+
+</ul ></li>
+  <li><a>Item 2</a></li>
+
+  <li className="menu-title">
+    <span>Category</span>
+  </li>
+  <li><a>Item 1</a></li>
+  <li><a>Item 2</a></li>
+</ul>
               <li className="bg-gray-100 text-gray-600">
                 <Link to="/services/webservice/">Web</Link>
               </li>

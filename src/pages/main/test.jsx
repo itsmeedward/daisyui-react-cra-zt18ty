@@ -1,102 +1,98 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Test = () => {
- 
-  useEffect(() => {
-    document.title = 'Dynamic Title';
-  }, []);
-
-
-  const vantaRef = useRef(null);
-
-  useEffect(() => {
-    vantaRef.current = VANTA.TOPOLOGY({
-      el: vantaRef.current,
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.0,
-      minWidth: 200.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      color: 0x29c229,
-      color2: 0x0,
-      backgroundColor: 0x0,
-    });
-
-    return () => {
-      if (vantaRef.current) {
-        vantaRef.current.destroy();
-      }
-    };
-  }, []);
-
+  const [heading, setHeading] = useState("");
+  const [subHeading, setSubHeading] = useState("");
   return (
-    <div ref={vantaRef}>
-      <div className="relative">
-        <div className="absolute inset-x-0 bottom-0">
-          <svg
-            viewBox="0 0 224 12"
-            fill="currentColor"
-            className="w-full -mb-1 text-white"
-            preserveAspectRatio="none"
-          >
-            <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
-          </svg>
-        </div>
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-            <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over a{' '}
-              <span className="relative inline-block">
-                lazy dog{' '}
-                <div className="w-full h-3 -mt-3 bg-deep-purple-accent-400" />
-              </span>
-            </h2>
-            <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo. Sed ut perspiciatis unde omnis.
-            </p>
-            <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
-              <input
-                placeholder="Email"
-                required
-                type="text"
-                className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline"
-              />
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-              >
-                Subscribe
-              </button>
-            </form>
-            <p className="max-w-md mb-10 text-xs font-thin tracking-wide text-gray-500 sm:text-sm sm:mx-auto md:mb-16">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium.
-            </p>
-            <a
-              href="/"
-              aria-label="Scroll down"
-              className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
+    <>
+      {links.map((link) => (
+        <div>
+          <div className="px-3 text-left md:cursor-pointer group">
+            <h1
+              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+              onClick={() => {
+                heading !== link.name ? setHeading(link.name) : setHeading("");
+                setSubHeading("");
+              }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-                viewBox="0 0 12 12"
-                fill="currentColor"
-              >
-                <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
-              </svg>
-            </a>
+              {link.name}
+              <span className="text-xl md:hidden inline">
+              
+              </span>
+              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+              
+              </span>
+            </h1>
+            {link.submenu && (
+              <div>
+                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
+                  <div className="py-3">
+                    <div
+                      className="w-4 h-4 left-3 absolute 
+                    mt-1 bg-white rotate-45"
+                    ></div>
+                  </div>
+                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                    {link.sublinks.map((mysublinks) => (
+                      <div>
+                        <h1 className="text-lg font-semibold">
+                          {mysublinks.Head}
+                        </h1>
+                        {mysublinks.sublink.map((slink) => (
+                          <li className="text-sm text-gray-600 my-2.5">
+                          
+                          </li>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+          {/* Mobile menus */}
+          <div
+            className={`
+            ${heading === link.name ? "md:hidden" : "hidden"}
+          `}
+          >
+            {/* sublinks */}
+            {link.sublinks.map((slinks) => (
+              <div>
+                <div>
+                  <h1
+                    onClick={() =>
+                      subHeading !== slinks.Head
+                        ? setSubHeading(slinks.Head)
+                        : setSubHeading("")
+                    }
+                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
+                  >
+                    {slinks.Head}
+
+                    <span className="text-xl md:mt-1 md:ml-2 inline">
+                     
+                    </span>
+                  </h1>
+                  <div
+                    className={`${
+                      subHeading === slinks.Head ? "md:hidden" : "hidden"
+                    }`}
+                  >
+                    {slinks.sublink.map((slink) => (
+                      <li className="py-3 pl-14">
+                       
+                      </li>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
-    </div>
+      ))}
+    </>
   );
 };
 
