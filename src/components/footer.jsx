@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../logo.png';
 
 export default function Footer() {
   return (
@@ -133,7 +134,7 @@ export default function Footer() {
       <a href="#">
         <img
           className="w-auto h-7"
-          src="https://merakiui.com/images/full-logo.svg"
+          src={Logo}
           alt=""
         />
       </a>

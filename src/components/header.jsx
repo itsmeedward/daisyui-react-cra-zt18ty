@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import Logo from '../greathill.png';
 
 export default function Header() {
   const [theme, setTheme] = useState('winter');
