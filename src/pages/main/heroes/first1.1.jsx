@@ -47,18 +47,16 @@ const First101 = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
             <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-              The quick, brown fox
+              Transforming the Digital Landscape 
               <br className="hidden md:block" />
-              jumps over a{' '}
+              with{' '}
               <span className="relative inline-block">
-                lazy dog{' '}
+              Cutting-Edge Technology{' '}
                 <div className="w-full h-3 -mt-3 bg-deep-purple-accent-400" />
               </span>
             </h2>
             <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo. Sed ut perspiciatis unde omnis.
+            Driving Growth and Success through Customized Software Development and Tech Consultancy.
             </p>
             <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
               <input

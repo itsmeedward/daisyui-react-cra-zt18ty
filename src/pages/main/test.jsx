@@ -1,98 +1,73 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
 const Test = () => {
-  const [heading, setHeading] = useState("");
-  const [subHeading, setSubHeading] = useState("");
+ 
   return (
-    <>
-      {links.map((link) => (
-        <div>
-          <div className="px-3 text-left md:cursor-pointer group">
-            <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
-              onClick={() => {
-                heading !== link.name ? setHeading(link.name) : setHeading("");
-                setSubHeading("");
-              }}
-            >
-              {link.name}
-              <span className="text-xl md:hidden inline">
-              
-              </span>
-              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
-              
-              </span>
-            </h1>
-            {link.submenu && (
-              <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
-                  <div className="py-3">
-                    <div
-                      className="w-4 h-4 left-3 absolute 
-                    mt-1 bg-white rotate-45"
-                    ></div>
-                  </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
-                    {link.sublinks.map((mysublinks) => (
-                      <div>
-                        <h1 className="text-lg font-semibold">
-                          {mysublinks.Head}
-                        </h1>
-                        {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
-                          
-                          </li>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-          {/* Mobile menus */}
-          <div
-            className={`
-            ${heading === link.name ? "md:hidden" : "hidden"}
-          `}
+    <section
+    data-section-id={1}
+    data-share=""
+    data-category="features"
+    data-component-id="4d2f33a1_04_awz"
+    className="py-32 bg-white overflow-hidden"
+  >
+    <div className="container px-4 mx-auto">
+      <div className="flex flex-wrap items-center -m-8">
+        <div className="w-full md:w-1/2 p-8">
+          <h2
+            className="mb-9 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
+            data-config-id="auto-txt-1-4"
           >
-            {/* sublinks */}
-            {link.sublinks.map((slinks) => (
-              <div>
-                <div>
-                  <h1
-                    onClick={() =>
-                      subHeading !== slinks.Head
-                        ? setSubHeading(slinks.Head)
-                        : setSubHeading("")
-                    }
-                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
-                  >
-                    {slinks.Head}
-
-                    <span className="text-xl md:mt-1 md:ml-2 inline">
-                     
-                    </span>
-                  </h1>
-                  <div
-                    className={`${
-                      subHeading === slinks.Head ? "md:hidden" : "hidden"
-                    }`}
-                  >
-                    {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14">
-                       
-                      </li>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ))}
+            Get down to your business
+          </h2>
+          <p
+            className="mb-10 text-lg text-gray-900 font-medium leading-relaxed md:max-w-md"
+            data-config-id="auto-txt-2-4"
+          >
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat.
+          </p>
+          <div className="mb-11 md:inline-block rounded-xl shadow-4xl">
+            <button
+              className="py-4 px-6 w-full text-white font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200"
+              type="button"
+              data-config-id="auto-txt-3-4"
+            >
+              Learn How to Save More
+            </button>
+          </div>
+          <div className="flex flex-wrap -m-2">
+            <div className="w-auto p-2">
+              <img
+                src="https://shuffle.dev/flaro-assets/images/features/feature2.png"
+                alt=""
+                data-config-id="auto-img-1-4"
+              />
+            </div>
+            <div className="flex-1 p-2">
+              <p
+                className="text-gray-600 font-medium md:max-w-sm"
+                data-config-id="auto-txt-4-4"
+              >
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+            </div>
           </div>
         </div>
-      ))}
-    </>
+        <div className="w-full md:w-1/2 p-8">
+          <img
+            className="transform hover:-translate-x-16 transition ease-in-out duration-1000"
+            src="https://wallpapercave.com/wp/wp8593341.jpg"
+            alt=""
+            data-config-id="auto-img-2-4"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
   );
 };
 
