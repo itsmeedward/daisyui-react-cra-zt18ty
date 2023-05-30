@@ -22,6 +22,13 @@ export default function Header() {
   useEffect(() => {
     localStorage.setItem('theme', theme);
   }, [theme]);
+
+
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
+  const handleClick = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
   return (
 
 <>
@@ -55,12 +62,30 @@ export default function Header() {
             <li>
               <a>Home</a>
             </li>
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Home</a>
-            </li>
+            
+            <span className="text-blue-500 justify-between z-40 hover:cursor-pointer hover:bg-blue-300" onClick={handleClick}>Services >  </span>
+
+            {isMenuVisible && (
+            <ul className="rounded-box p-2 bg-base-100">
+            <span className="text-green-500">Web</span>
+      <li><Link to="/services/webservice/website">Web</Link> <ul className="rounded-box p-2 bg-base-100">
+            <span className="text-green-500">Blockchain</span>
+      
+      <li><a>Submenu 2</a></li>
+      <li><a>Submenu 3</a></li>
+      <span className="text-green-500">Blockchain</span>
+      <li><a>Submenu 1</a></li>
+      <li><a>Submenu 2</a></li>
+      <li><a>Submenu 3</a></li>
+    </ul></li>
+      <li><a>Submenu 2</a></li>
+      <li><a>Submenu 3</a></li>
+      <span className="text-green-500">Blockchain</span>
+      <li><a>Submenu 1</a></li>
+      <li><a>Submenu 2</a></li>
+      <li><a>Submenu 3</a></li>
+    </ul>
+     )}
             <li tabIndex={0} className="z-40">
               <a className="justify-between z-40">
                 About
@@ -128,7 +153,7 @@ export default function Header() {
                 
               </li>
               <li className="bg-gray-100 text-gray-600">
-                <Link to="/about">About </Link>
+                <Link to="/about">Our Philosophy</Link>
                 
                 
               </li>
@@ -153,17 +178,26 @@ export default function Header() {
   <li className="menu-title">
     <span>Web</span>
   </li>
-  <li><a>Item 1</a>
+  <li><Link to="/services/webservice/">Web ></Link>
   <ul className="menu bg-base-100  bg-secondary text-secondary-content w-56 p-2 rounded-box">
   <li className="menu-title">
     <span>Category</span>
   </li>
-  <li><a>Item 1</a></li>
-  <li><a>Item 2</a></li>
+  <li> <Link to="/services/webservice/website">Web</Link></li>
+  <li><a>Blockchain</a></li>
   
 
 </ul ></li>
-  <li><a>Item 2</a></li>
+<li><Link to="/services/webservice/">Blockchain ></Link>
+  <ul className="menu bg-base-100  bg-secondary text-secondary-content w-56 p-2 rounded-box">
+  <li className="menu-title">
+    <span>Category</span>
+  </li>
+  <li> <Link to="/services/webservice/blockchain/crypto">Crypto</Link></li>
+  <li><Link to="/services/webservice/blockchain/web3">Web3</Link></li>
+  
+
+</ul ></li>
 
   <li className="menu-title">
     <span>Category</span>
