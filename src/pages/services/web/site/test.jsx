@@ -11,7 +11,7 @@ export default function Website(){
       className="skewed-bottom-right"
     >
       
-      <div className="bg-gray-900 pt-20 pb-20 radius-for-skewed">
+      <div className="bg-green-900 pt-20 pb-20 radius-for-skewed">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full lg:w-1/2 px-4 mb-12 md:mb-20 lg:mb-0 flex items-center">
@@ -46,7 +46,7 @@ export default function Website(){
                       Get Started
                     </a>
                     <a
-                      className="inline-block w-full lg:w-auto py-2 px-6 leading-loose text-white font-semibold bg-gray-900 border-2 border-gray-700 hover:border-gray-600 rounded-l-xl rounded-t-xl transition duration-200"
+                      className="inline-block w-full lg:w-auto py-2 px-6 leading-loose text-white font-semibold bg-green-900 border-2 border-gray-700 hover:border-gray-600 rounded-l-xl rounded-t-xl transition duration-200"
                       href="#"
                       data-config-id="secondary-action-hero"
                     >
@@ -81,7 +81,7 @@ export default function Website(){
         data-config-target=".navbar-menu"
         data-config-class="hidden"
       >
-        <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25" />
+        <div className="navbar-backdrop fixed inset-0 bg-green-800 opacity-25" />
         <nav className="relative flex flex-col py-6 px-6 h-full w-full bg-white border-r overflow-y-auto">
           <div className="flex items-center mb-8">
             <a
@@ -166,7 +166,7 @@ export default function Website(){
           <div className="mt-auto">
             <div className="pt-6">
               <a
-                className="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-l-xl rounded-t-xl"
+                className="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-green-50 hover:bg-green-100 rounded-l-xl rounded-t-xl"
                 href="#"
                 data-config-id="secondary-action"
               >
@@ -235,7 +235,7 @@ export default function Website(){
           <polygon fill="currentColor" points="0 10 10 0 10 10" />
         </svg>
       </div>
-      <div className="py-20 bg-gray-900 radius-for-skewed">
+      <div className="py-20 bg-green-900 radius-for-skewed">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center">
             <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
@@ -319,7 +319,7 @@ export default function Website(){
             </div>
             <div className="w-full lg:w-1/2 flex flex-wrap -mx-4">
               <div className="mb-8 lg:mb-0 w-full md:w-1/2 px-4">
-                <div className="mb-8 py-6 pl-6 pr-4 shadow-md rounded bg-gray-800">
+                <div className="mb-8 py-6 pl-6 pr-4 shadow-md rounded bg-green-800">
                   <span className="mb-4 inline-block p-3 rounded-lg bg-yellow-800">
                     <svg
                       className="w-10 h-10 text-yellow-500"
@@ -350,7 +350,7 @@ export default function Website(){
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
-                <div className="py-6 pl-6 pr-4 shadow-md rounded bg-gray-800">
+                <div className="py-6 pl-6 pr-4 shadow-md rounded bg-green-800">
                   <span className="mb-4 inline-block p-3 rounded-lg bg-pink-800">
                     <svg
                       className="w-10 h-10 text-pink-500"
@@ -377,8 +377,8 @@ export default function Website(){
                 </div>
               </div>
               <div className="w-full md:w-1/2 lg:mt-20 px-4">
-                <div className="mb-8 py-6 pl-6 pr-4 shadow-md rounded-lg bg-gray-800">
-                  <span className="mb-4 inline-block p-3 rounded bg-blue-800">
+                <div className="mb-8 py-6 pl-6 pr-4 shadow-md rounded-lg bg-green-800">
+                  <span className="mb-4 inline-block p-3 rounded bg-green-800">
                     <svg
                       className="w-10 h-10 text-blue-500"
                       xmlns="http://www.w3.org/2000/svg"
@@ -408,7 +408,7 @@ export default function Website(){
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
-                <div className="py-6 pl-6 pr-4 shadow-md rounded-lg bg-gray-800">
+                <div className="py-6 pl-6 pr-4 shadow-md rounded-lg bg-green-800">
                   <span className="mb-4 inline-block p-3 rounded bg-purple-800">
                     <svg
                       className="w-10 h-10 text-purple-500"
@@ -593,7 +593,7 @@ export default function Website(){
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-2">
           <div className="mb-4 w-full md:w-1/3 lg:w-1/6 px-2">
-            <div className="py-16 bg-gray-50 rounded">
+            <div className="py-16 bg-green-50 rounded">
               <a href="#">
                 <img
                   className="mx-auto h-6"
@@ -605,7 +605,7 @@ export default function Website(){
             </div>
           </div>
           <div className="mb-4 w-full md:w-1/3 lg:w-1/6 px-2">
-            <div className="py-16 bg-gray-50 rounded">
+            <div className="py-16 bg-green-50 rounded">
               <a href="#">
                 <img
                   className="mx-auto h-6"
@@ -617,7 +617,7 @@ export default function Website(){
             </div>
           </div>
           <div className="mb-4 w-full md:w-1/3 lg:w-1/6 px-2">
-            <div className="py-16 bg-gray-50 rounded">
+            <div className="py-16 bg-green-50 rounded">
               <a href="#">
                 <img
                   className="mx-auto h-6"
@@ -629,7 +629,7 @@ export default function Website(){
             </div>
           </div>
           <div className="mb-4 w-full md:w-1/3 lg:w-1/6 px-2">
-            <div className="py-16 bg-gray-50 rounded">
+            <div className="py-16 bg-green-50 rounded">
               <a href="#">
                 <img
                   className="mx-auto h-6"
@@ -641,7 +641,7 @@ export default function Website(){
             </div>
           </div>
           <div className="mb-4 w-full md:w-1/3 lg:w-1/6 px-2">
-            <div className="py-16 bg-gray-50 rounded">
+            <div className="py-16 bg-green-50 rounded">
               <a href="#">
                 <img
                   className="mx-auto h-6"
@@ -653,7 +653,7 @@ export default function Website(){
             </div>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/6 px-2">
-            <div className="py-16 bg-gray-50 rounded">
+            <div className="py-16 bg-green-50 rounded">
               <a href="#">
                 <img
                   className="mx-auto h-6"
@@ -692,7 +692,7 @@ export default function Website(){
           <polygon fill="currentColor" points="0 10 10 0 10 10" />
         </svg>
       </div>
-      <div className="py-20 bg-gray-50 radius-for-skewed">
+      <div className="py-20 bg-green-50 radius-for-skewed">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center -mx-4">
             <div className="mb-12 lg:mb-0 w-full lg:w-1/2 px-4">
@@ -847,7 +847,7 @@ export default function Website(){
       data-share=""
       data-category="stats-light-mono"
       data-component-id="7adc2ecc_03_awz"
-      className="py-20 bg-gray-50"
+      className="py-20 bg-green-50"
     >
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-center -mx-4">
@@ -931,145 +931,7 @@ export default function Website(){
       </div>
     </section>
   </div>
-  <div id="bs-drop-here">Place for a component</div>
-  <div id="bs-add-first-element" className="bs-font bs-d-none">
-    <div>
-      <p className="bs--not-dragging bs-title">
-        <img
-          src="/vendor/shuffle/img/icons/large-left-arrow.svg"
-          alt=""
-          className="bs-arrow-icon"
-        />
-        <video
-          poster="/static/drag-drop.jpg"
-          muted=""
-          playsInline=""
-          autoPlay=""
-          loop=""
-          src="/static/drag-drop.mp4"
-          className="bs-video"
-        />
-        Create a professional looking website.
-      </p>
-      <p className="bs--not-dragging bs-subtitle">
-        Save time like other Shuffle users who are creating 8,000+ beautiful
-        templates every&nbsp;week.
-      </p>
-      <p className="bs--not-dragging bs-tip">
-        <span className="bs-flex">
-          <img src="/vendor/shuffle/img/icons/info-circle.svg" alt="" />
-          <a href="/pricing" className="bs-link unlock-all-items">
-            Create&nbsp;an&nbsp;account
-          </a>
-          &nbsp;to unlock all features and save projects for later.
-        </span>
-      </p>
-      <p className="bs--dragging bs-title bs-spaced">Drop it here! :)</p>
-    </div>
-  </div>
-  <div
-    id="bs-component"
-    className=""
-    style={{ pointerEvents: "none", top: 0, left: 0, width: 1349, height: 834 }}
-  >
-    <div id="bs-component__buttons" className="bs-preview-nav">
-      <div id="bs-component__buttons--one" className="bs-preview-nav">
-        <button
-          id="bs-component__buttons--cog"
-          title="Settings"
-          className="bs-preview-nav"
-        >
-          <i className="icon-cog bs-preview-nav" />
-        </button>
-      </div>
-      <div id="bs-component__buttons--list" className="bs-preview-nav">
-        <div
-          className="bs-component__buttons--edit bs-preview-nav"
-          style={{ display: "none" }}
-        >
-          <button
-            id="bs-component__select-wrapper"
-            title="Select container"
-            className="bs-preview-nav"
-          >
-            <span className="bs-preview-nav">Container</span>
-            <i className="icon-resize-vertical bs-preview-nav" />
-          </button>
-        </div>
-        <div id="bs-component__buttons--components" className="bs-preview-nav">
-          <span className="bs-custom-component__info bs-preview-nav">
-            custom
-          </span>
-          <button
-            id="bs-component__prev"
-            title="Previous component"
-            className="bs-preview-nav"
-          >
-            <i className="icon-left-circled bs-preview-nav" />
-          </button>
-          <button
-            id="bs-component__shuffle"
-            title="Shuffle"
-            className="bs-preview-nav"
-          >
-            <i className="icon-shuffle bs-preview-nav" />
-          </button>
-          <button
-            id="bs-component__next"
-            title="Next component"
-            className="bs-preview-nav"
-          >
-            <i className="icon-right-circled bs-preview-nav" />
-          </button>
-        </div>
-        <div id="bs-component__buttons--move" className="bs-preview-nav">
-          <button
-            id="bs-component__down"
-            title="Move down"
-            className="bs-preview-nav"
-          >
-            <i className="icon-down bs-preview-nav" />
-          </button>
-          <button
-            id="bs-component__up"
-            title="Move up"
-            className="bs-preview-nav"
-          >
-            <i className="icon-up bs-preview-nav" />
-          </button>
-        </div>
-        <div className="bs-component__buttons--edit bs-preview-nav">
-          <button
-            id="bs-component__settings-html"
-            title="Custom HTML"
-            className="bs-preview-nav"
-          >
-            <span className="bs-preview-nav">HTML </span>
-            <i className="icon-code bs-preview-nav" />
-          </button>
-        </div>
-        <div className="bs-component__buttons--edit bs-preview-nav">
-          <button
-            id="bs-component__settings-link"
-            title="Connections"
-            className="bs-preview-nav"
-          >
-            <i className="icon-disconnect bs-preview-nav" />
-            <i className="icon-connect bs-preview-nav" />
-          </button>
-        </div>
-        <div className="bs-component__buttons--edit bs-preview-nav">
-          <button
-            id="bs-component__delete"
-            title="Delete component"
-            className="bs-preview-nav"
-          >
-            <i className="icon-trash bs-preview-nav" />
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 </>
   )
 }
