@@ -34,7 +34,7 @@ export default function Header() {
 <>
    
 
-    <header className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700">
+    <header className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full  border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-white bg-opacity-20">
 
     <div className="navbar  bg-base-100 z-40">
       <div className="navbar-start z-40">
@@ -124,17 +124,17 @@ export default function Header() {
 
         <a className="btn btn-ghost normal-case text-xl">
           {' '}
-          <Link to="/">Greathill ltd.</Link>
+          <Link to="/" className="font-medium">Greathill ltd.</Link>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="font-medium">Home</Link>
           </li>
 
           <li tabIndex={0}>
-            <a>
+            <a className="font-medium ">
               About
               <svg
                 className="fill-current"
