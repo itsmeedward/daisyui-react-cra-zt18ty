@@ -6,33 +6,17 @@ const First101 = () => {
     document.title = 'Dynamic Title';
   }, []);
 
+  const imageUrl = 'https://rare-gallery.com/uploads/posts/372047-4k-wallpaper.jpg';
 
-  const vantaRef = useRef(null);
 
-  useEffect(() => {
-    vantaRef.current = VANTA.TOPOLOGY({
-      el: vantaRef.current,
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.0,
-      minWidth: 200.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      color: 0x29c229,
-      color2: 0x0,
-      backgroundColor: 0x0,
-    });
-
-    return () => {
-      if (vantaRef.current) {
-        vantaRef.current.destroy();
-      }
-    };
-  }, []);
+  
 
   return (
-    <div ref={vantaRef}>
+    <div  style={{
+      backgroundImage: `url(${imageUrl})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: '100%'}} >
       <div className="relative">
         <div className="absolute inset-x-0 bottom-0">
           <svg
