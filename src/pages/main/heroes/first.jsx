@@ -28,7 +28,7 @@ function First() {
     data-share=""
     data-category="content"
     data-component-id="fdca0d23_05_awz"
-    className="relative py-24 2xl:pt-44 2xl:pb-52 bg-white overflow-hidden"
+    className="relative py-24 2xl:pt-44 2xl:pb-52 bg-white overflow-hidden rounded-t-[10rem] bg-yellow-300"
   >
     <div className="container px-4 mx-auto">
       <div className="mb-20 lg:mb-0 w-full lg:w-1/2">
