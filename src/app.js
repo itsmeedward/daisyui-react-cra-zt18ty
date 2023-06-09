@@ -16,7 +16,7 @@ import Crypto from './pages/services/web/blockchain/crypto/main';
 import Web3 from './pages/services/web/blockchain/web3/main';
 import Website from './pages/services/web/site/test';
 import Vision from './pages/about/about/vision';
-
+import Philosophy from './pages/about/about/philosophy';
 const App = (props) => {
   return (
     <div>
@@ -45,6 +45,7 @@ const App = (props) => {
           />
           <Route path="/services/Webservice/website" element={<Website />} />
           <Route path="/about/vision" element={<Vision />} />
+          <Route path="/about/philosophy" element={<Philosophy />} />
           <Route path="/*" element={<P404 />} />
         </Routes>
         <Footer />

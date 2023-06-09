@@ -153,7 +153,7 @@ export default function Header() {
                 
               </li>
               <li className="bg-gray-100 text-gray-600">
-                <Link to="/about">Our Philosophy</Link>
+                <Link to="/about/philosophy">Our Philosophy</Link>
                 
                 
               </li>
