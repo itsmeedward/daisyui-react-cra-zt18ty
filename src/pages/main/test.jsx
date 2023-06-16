@@ -22,7 +22,7 @@ const Test = () => {
     <section className="pt-32 sm:pt-40 md:pt-48">
   <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
     <div className="relative">
-      <h1 className="text-center text-5xl font-bold text-blue-900 dark:text-white sm:text-6xl lg:text-left lg:text-7xl">
+      <h1 className="text-center text-5xl font-bold text-blue-900 e sm:text-6xl lg:text-left lg:text-7xl">
         Design, Build,
         <span className="relative">
           <svg
@@ -57,7 +57,7 @@ const Test = () => {
       </h1>
       <div className="relative items-center gap-12 lg:flex">
         <div className="text-center sm:mx-auto sm:w-11/12 md:mt-12 md:w-4/5 lg:mt-0 lg:mr-auto lg:w-6/12 lg:text-left">
-          <p className="mt-12 text-lg text-gray-600 dark:text-gray-300 sm:text-xl">
+          <p className="mt-12 text-lg   sm:text-xl">
             Computers used to be magical. But much of that magic has been lost
             over time, replaced by subpar tools and practices that slow teams
             down and hold great work back.
@@ -162,7 +162,7 @@ const Test = () => {
       <div className="mt-12 border-y border-gray-100 py-8 text-center dark:border-gray-800 md:py-12 xl:mt-20">
         <a
           href="customers.html"
-          className="text-sm font-semibold tracking-wider text-gray-800 dark:text-white"
+          className="text-sm font-semibold tracking-wider  "
         >
           TRUSTED BY YOUR FAVORED TOP TECHS COMPANIES
         </a>
@@ -234,10 +234,10 @@ const Test = () => {
         />
       </div>
       <div className="md:w-1/2 lg:w-[47%]">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">
+        <h2 className="text-3xl font-bold   md:text-4xl lg:text-5xl">
           Just focus on your business startegy
         </h2>
-        <p className="my-12 text-gray-600 dark:text-gray-300">
+        <p className="my-12  ">
           Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
           expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur
           quam mollitia. <br />
@@ -255,7 +255,7 @@ const Test = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="m-auto h-6 w-6 text-gray-700 dark:text-gray-300"
+                className="m-auto h-6 w-6  "
               >
                 <path
                   strokeLinecap="round"
@@ -281,7 +281,7 @@ const Test = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="m-auto h-6 w-6 text-gray-700 dark:text-gray-300"
+                className="m-auto h-6 w-6  "
               >
                 <path
                   strokeLinecap="round"
@@ -308,7 +308,7 @@ const Test = () => {
       </div>
     </div>
     <div className="my-20 md:my-32">
-      <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:w-2/3 md:text-3xl lg:text-4xl">
+      <h3 className="text-2xl font-bold   md:w-2/3 md:text-3xl lg:text-4xl">
         Customize your customer experience, Go beyond with our top products
       </h3>
       <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -322,10 +322,10 @@ const Test = () => {
               width={512}
             />
             <div>
-              <h4 className="text-xl font-semibold text-gray-900 dark:text-white">
+              <h4 className="text-xl font-semibold  ">
                 Safelus
               </h4>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3  ">
                 Dolorem aliquid officiis quae ipsum nobis libero alias Iure
                 nobis dicta.
               </p>
@@ -342,10 +342,10 @@ const Test = () => {
               width={512}
             />
             <div>
-              <h4 className="text-xl font-semibold text-gray-900 dark:text-white">
+              <h4 className="text-xl font-semibold  ">
                 Paylus
               </h4>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3  ">
                 Dolorem aliquid officiis quae ipsum nobis libero alias Iure
                 nobis dicta.
               </p>
@@ -362,10 +362,10 @@ const Test = () => {
               width={512}
             />
             <div>
-              <h4 className="text-xl font-semibold text-gray-900 dark:text-white">
+              <h4 className="text-xl font-semibold  ">
                 TL Certification
               </h4>
-              <p className="mt-3 text-gray-600 dark:text-gray-400">
+              <p className="mt-3  ">
                 Dolorem aliquid officiis quae ipsum nobis libero alias Iure
                 nobis dicta.
               </p>
@@ -399,10 +399,10 @@ const Test = () => {
         />
       </div>
       <div className="ml-auto h-full md:w-1/2">
-        <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl lg:text-4xl">
+        <h3 className="text-2xl font-bold   md:text-3xl lg:text-4xl">
           Go beyond with our top products
         </h3>
-        <p className="my-12 text-gray-600 dark:text-gray-300">
+        <p className="my-12  ">
           Nobis minus voluptatibus pariatur dignissimos libero quaerat ?
           Asperiores nemo possimus nesciunt dicta veniam aspernatur quam
           mollitia. <br />
@@ -422,6 +422,311 @@ const Test = () => {
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section className="mt-32">
+  <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
+    <div className="text-center">
+      <h2 className="text-3xl font-bold   md:text-4xl xl:text-5xl">
+        For growing teams and organizations
+      </h2>
+      <p className="mx-auto mt-6   md:w-3/4 lg:w-3/5">
+        A growing team doesn't need to mean growing pains. Privacy, and the
+        right tool for every step of your journey - Jira Software friction -
+        company size.
+      </p>
+      <div
+        role="tablist"
+        aria-label="tabs"
+        className="relative mx-auto mt-12 grid h-12 w-auto grid-cols-3 items-center gap-x-1 overflow-hidden rounded-full border border-gray-200 bg-gray-100 px-[3px] text-gray-600 dark:border-gray-700 dark:border-opacity-60 dark:bg-darker dark:text-gray-300 dark:shadow-none sm:w-max"
+      >
+        <div
+          className="tab-indicator absolute h-10 rounded-full bg-white shadow-md transition-[left] duration-500 dark:bg-gray-800"
+          style={{ left: "121.513px", width: "113.713px" }}
+        />
+        <button
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-0"
+          tabIndex={0}
+          title="tab item"
+          className="tab relative block rounded-full py-2.5 px-4 hover:text-primary dark:hover:text-primaryLight"
+        >
+          <span className="m-auto block w-max text-sm font-medium tracking-wider">
+            First Tab
+          </span>
+        </button>
+        <button
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-1"
+          tabIndex={-1}
+          title="tab item"
+          className="tab relative block rounded-full py-2.5 px-4 hover:text-primary dark:hover:text-primaryLight"
+        >
+          <span className="m-auto block w-max text-sm font-medium tracking-wider">
+            Second Tab
+          </span>
+        </button>
+        <button
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-2"
+          tabIndex={-1}
+          title="tab item"
+          className="tab relative block rounded-full py-2.5 px-4 hover:text-primary dark:hover:text-primaryLight"
+        >
+          <span className="m-auto block w-max text-sm font-medium tracking-wider">
+            Third Tab
+          </span>
+        </button>
+      </div>
+    </div>
+    <div className="mt-20">
+      <div className="gap-6 space-y-12 md:flex md:space-y-0">
+        <div className="relative md:w-1/2">
+          <div
+            className="panel inset-0 flex flex-col justify-center transition duration-500 md:absolute invisible opacity-0 scale-90"
+            id="panel-0"
+          >
+            <div>
+              <h3 className="text-2xl font-bold   md:text-3xl">
+                Make work flow across teams while connecting back to company
+                goals
+              </h3>
+              <p className="mt-8  ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+                omnis voluptatem accusantium nemo perspiciatis delectus atque
+                autem! repellat expedita consequatur! Officiis id consequatur
+                atque doloremque!
+              </p>
+              <div className="mt-12 space-y-6">
+                <div className="flex items-center gap-6">
+                  <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
+                    <img
+                      className="m-auto h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/4727/4727266.png"
+                      alt="icon illustration"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                    />
+                  </div>
+                  <div className="w-[calc(100%-7.5rem)]">
+                    <h4 className="text-lg font-semibold  ">
+                      Together as one
+                    </h4>
+                    <p className="mt-1  ">
+                      Accusantium nemo perspiciatis delectus atque autem!
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-6">
+                  <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
+                    <img
+                      className="m-auto h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/584/584796.png"
+                      alt="icon illustration"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                    />
+                  </div>
+                  <div className="w-[calc(100%-7.5rem)]">
+                    <h4 className="text-lg font-semibold  ">
+                      New ideas
+                    </h4>
+                    <p className="mt-1  ">
+                      Accusalectus atque autem accusantium nemo perspiciatis
+                      delectus atque autem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="panel absolute inset-0 flex flex-col justify-center transition duration-500 visible opacity-100 scale-100"
+            id="panel-1"
+          >
+            <div>
+              <h3 className="text-2xl font-bold   md:text-3xl">
+                Make work flow across teams while connecting back to company
+                goals
+              </h3>
+              <p className="mt-8  ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+                omnis voluptatem accusantium nemo perspiciatis delectus atque
+                autem! repellat expedita consequatur! Officiis id consequatur
+                atque doloremque!
+              </p>
+              <div className="mt-12 space-y-6">
+                <div className="flex items-center gap-6">
+                  <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
+                    <img
+                      className="m-auto h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/6106/6106288.png"
+                      alt="icon illustration"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                    />
+                  </div>
+                  <div className="w-[calc(100%-7.5rem)]">
+                    <h4 className="text-lg font-semibold  ">
+                      Together as one
+                    </h4>
+                    <p className="mt-1  ">
+                      Accusantium nemo perspiciatis delectus atque autem!
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-6">
+                  <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
+                    <img
+                      className="m-auto h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/2313/2313906.png"
+                      alt="icon illustration"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                    />
+                  </div>
+                  <div className="w-[calc(100%-7.5rem)]">
+                    <h4 className="text-lg font-semibold  ">
+                      New ideas
+                    </h4>
+                    <p className="mt-1  ">
+                      Accusalectus atque autem accusantium nemo perspiciatis
+                      delectus atque autem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="panel absolute inset-0 flex flex-col justify-center transition duration-500 invisible opacity-0 scale-90"
+            id="panel-2"
+          >
+            <div>
+              <h3 className="text-2xl font-bold   md:text-3xl">
+                Make work flow across teams while connecting back to company
+                goals
+              </h3>
+              <p className="mt-8  ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+                omnis voluptatem accusantium nemo perspiciatis delectus atque
+                autem! repellat expedita consequatur! Officiis id consequatur
+                atque doloremque!
+              </p>
+              <div className="mt-12 space-y-6">
+                <div className="flex items-center gap-6">
+                  <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
+                    <img
+                      className="m-auto h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/3340/3340200.png"
+                      alt="icon illustration"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                    />
+                  </div>
+                  <div className="w-[calc(100%-7.5rem)]">
+                    <h4 className="text-lg font-semibold  ">
+                      Together as one
+                    </h4>
+                    <p className="mt-1  ">
+                      Accusantium nemo perspiciatis delectus atque autem!
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-6">
+                  <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
+                    <img
+                      className="m-auto h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/5405/5405929.png"
+                      alt="icon illustration"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                    />
+                  </div>
+                  <div className="w-[calc(100%-7.5rem)]">
+                    <h4 className="text-lg font-semibold  ">
+                      Growth
+                    </h4>
+                    <p className="mt-1  ">
+                      Accusalectus atque autem accusantium nemo perspiciatis
+                      delectus atque autem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-m-4 overflow-hidden p-4 sm:-mx-12 sm:px-12 md:mx-0 md:w-1/2 md:overflow-visible md:px-0">
+          <div className="relative bg-gray-100 before:absolute before:inset-0 before:scale-x-110 before:border-y before:border-gray-200 after:absolute after:inset-0 after:scale-y-110 after:border-x after:border-gray-200 dark:bg-gray-800 dark:before:border-gray-700 dark:after:border-gray-700">
+            <div className="relative h-96 overflow-clip py-10 sm:h-[32rem] lg:p-20">
+              <div
+                data-target="panel-0"
+                className="panel-preview absolute inset-0 z-0 flex translate-y-[100%] scale-75 items-end overflow-hidden px-6 opacity-50 transition duration-500 sm:px-10"
+              >
+                <img
+                  src="./images/screenshots/tailus-home.webp"
+                  className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
+                  alt="tailus screenshot"
+                  width={850}
+                  height={1780}
+                />
+              </div>
+              <div
+                data-target="panel-1"
+                className="panel-preview absolute inset-0 z-10 flex translate-y-0 scale-100 items-end overflow-hidden px-6 opacity-100 transition duration-500 sm:px-10"
+              >
+                <img
+                  src="./images/screenshots/tailus-home-dark.webp"
+                  className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
+                  alt="tailus screenshot dark-mode"
+                  width={850}
+                  height={1780}
+                />
+              </div>
+              <div
+                data-target="panel-2"
+                className="panel-preview absolute inset-0 z-0 flex translate-y-[100%] scale-75 items-end overflow-hidden px-6 opacity-50 transition duration-500 sm:px-10"
+              >
+                <img
+                  src="./images/screenshots/tailus-contact.webp"
+                  className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
+                  alt="tailus contact screenshot"
+                  width={850}
+                  height={1780}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
    </>
   );
