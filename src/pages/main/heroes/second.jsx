@@ -4,35 +4,71 @@ import 'aos/dist/aos.css';
 
 export default function Second() {
   AOS.init();
-  return (
+  export default () => {
 
-    <>
+    const features = [
+        {
+            icon:
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+                </svg>,
+            title: "Analytics",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius."
+        },
+        {
+            icon:
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                </svg>,
+            title: "Datacenter security",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius."
+        },
+        {
+            icon:
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
+                </svg>,
+            title: "Build on your terms",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius."
+        }
+    ]
 
-
-
-
-
-
-    
-
-
-
-    <section className="bg-white dark:bg-gray-900 border-t border-gray-400">
-      <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
-        <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
-          Bring your Business to the{' '}
-          <span className="text-blue-500">next level.</span>
-        </h2>
-        <p  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"  className="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300">
-        Explore our range of services and discover how we can help you unlock your business's full potential. From strategy and marketing to operations and beyond, our team of experts has the skills and experience to help you succeed. Let's work together to elevate your business and achieve success like never before.
-        </p>
-        <div className="inline-flex w-full mt-6 sm:w-auto">
-          
-               <Link className="btn inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80" to="/services"> See our services</Link>
-          
-        </div>
-      </div>
-    </section>
-    </>
+    return (
+        <section className="py-14">
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+                <div className="max-w-xl space-y-3">
+                    <h3 className="text-indigo-600 font-semibold">
+                        Features
+                    </h3>
+                    <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        Do more with less complexity
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius
+                    </p>
+                </div>
+                <div className="mt-12">
+                    <ul className="grid gap-x-12 divide-y [&>.feature-1]:pl-0 sm:grid-cols-2 sm:gap-y-8 sm:divide-y-0 lg:divide-x lg:grid-cols-3 lg:gap-x-0">
+                        {
+                            features.map((item, idx) => (
+                                <li key={idx} className={`feature-${idx + 1} space-y-3 py-8 lg:px-12 sm:py-0`}>
+                                    <div className="w-12 h-12 border text-indigo-600 rounded-full flex items-center justify-center">
+                                        {item.icon}
+                                    </div>
+                                    <h4 className="text-lg text-gray-800 font-semibold">
+                                        {item.title}
+                                    </h4>
+                                    <p>
+                                        {item.desc}
+                                    </p>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
+    )
+}
   );
 }
