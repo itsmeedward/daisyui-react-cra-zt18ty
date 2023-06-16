@@ -4,7 +4,6 @@ import 'aos/dist/aos.css';
 
 export default function Second() {
   AOS.init();
-  export default () => {
 
     const features = [
         {
@@ -69,6 +68,4 @@ export default function Second() {
             </div>
         </section>
     )
-}
-  );
 }
