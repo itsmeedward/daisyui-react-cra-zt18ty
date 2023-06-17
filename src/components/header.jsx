@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 
 export default function Header() {
-  const [theme, setTheme] = useState('winter');
+  const [theme, setTheme] = useState('corporate');
 
   const toggleTheme = () => {
-    const newTheme = theme === 'winter' ? 'night' : 'winter';
+    const newTheme = theme === 'corporate' ? 'black' : 'corporate';
     setTheme(newTheme);
     document.documentElement.setAttribute('data-theme', newTheme);
   };
