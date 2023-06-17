@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../logo.png';
+import info from '../data/info.json'
+import navigationData from '../data/navigationFooter.json'
 
 export default function Footer() {
   return (
@@ -40,25 +42,16 @@ export default function Footer() {
         <p className="font-semibold    ">
           Quick Link
         </p>
-        <div className="flex flex-col items-start mt-5 space-y-2">
+        <div  className="flex flex-col items-start mt-5 space-y-2" >
+        {navigationData.QuickLinks.map((link)  => ( 
           <a
-            href="#"
+            href="{link.url}"
             className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
-            Home
+          {link.label}
           </a>
-          <a
-            href="#"
-            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
-          >
-            Who We Are
-          </a>
-          <a
-            href="#"
-            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
-          >
-            Our Philosophy
-          </a>
+        ))}
+         
         </div>
       </div>
       <div>
@@ -124,7 +117,7 @@ export default function Footer() {
             href="#"
             className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
-            info@merakiui.com
+              {info.Mail}
           </a>
         </div>
       </div>
@@ -139,7 +132,7 @@ export default function Footer() {
         />
       </a>
       <p className="mt-4 text-sm text-gray-500 sm:mt-0 ">
-        © Copyright 2021 - {' '+currentDate}. All Rights Reserved.
+        © Copyright 2021 - {' '+currentDate}. All Rights Reserved. Managed with 💙 love 
       </p>
     </div>
   </div>
