@@ -4,7 +4,27 @@ import { Link } from 'react-router-dom';
 
 
 export default function P404() {
+  useEffect(() => {
+    const animationContainer = document.getElementById('animation-container');
 
+    if (animationContainer) {
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/lottie-web@5.7.9/build/player/lottie.min.js';
+      script.async = true;
+
+      script.onload = () => {
+        window.lottie.loadAnimation({
+          container: animationContainer,
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: 'https://assets4.lottiefiles.com/packages/lf20_4qhciwpm.json'
+        });
+      };
+
+      document.body.appendChild(script);
+    }
+  }, []);
   return (
     <section className=" ">
   <div className="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
@@ -114,6 +134,7 @@ export default function P404() {
     </div>
     <div className="relative w-full mt-8 lg:w-1/2 lg:mt-0">
      
+    <div id="animation-container"></div>
  
     </div>
   </div>

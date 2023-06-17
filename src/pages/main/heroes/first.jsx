@@ -21,26 +21,40 @@ function First() {
   useEffect(() => {
     setCurrentMessage(messages[messageIndex]);
   }, [messageIndex]);
+
+  
+//lottiee
+
+useEffect(() => {
+  const animationContainer = document.getElementById('animation-container');
+
+  if (animationContainer) {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/lottie-web@5.7.9/build/player/lottie.min.js';
+    script.async = true;
+
+    script.onload = () => {
+      window.lottie.loadAnimation({
+        container: animationContainer,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'https://assets3.lottiefiles.com/packages/lf20_eOLhtkf7AY.json'
+      });
+    };
+
+    document.body.appendChild(script);
+  }
+}, []);
+//lottie end
   return (
     <>
       <div className="pt-32 md:pt-44" id="solution">
         <div className="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0">
           <div className="flex-row-reverse items-center justify-between space-y-12 text-gray-600 md:flex md:gap-6 lg:gap-12 lg:space-y-0">
-            <div className="relative ml-auto h-full md:w-1/2">
-              <img
-                className="dark:hidden"
-                src="/images/milestone.webp"
-                alt="app milestone"
-                width={1174}
-                height={1134}
-              />
-              <img
-                className="hidden dark:block"
-                src="/images/milestone-dark.webp"
-                alt="app milestone"
-                width={1174}
-                height={1134}
-              />
+            <div  className="relative ml-auto h-full md:w-1/2">
+                <div id="animation-container" className=""
+                ></div>
             </div>
             <div className="md:w-1/2 lg:w-[47%]">
               <h2 className="text-3xl font-bold   md:text-4xl lg:text-5xl">
