@@ -5,10 +5,10 @@ import Logo from '../logo.png';
 export default function Footer() {
   return (
     <>
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="border-gray-800	border">
   <div className="container px-6 py-12 mx-auto">
     <div className="md:flex md:-mx-3 md:items-center md:justify-between">
-      <h1 className="text-xl font-semibold tracking-tight text-gray-800 md:mx-3 xl:text-2xl dark:text-white">
+      <h1 className="text-xl font-semibold tracking-tight   md:mx-3 xl:text-2xl  ">
         Subscribe our newsletter to get update.
       </h1>
       <div className="mt-6 md:mx-3 shrink-0 md:mt-0 md:w-auto">
@@ -37,92 +37,92 @@ export default function Footer() {
     <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <div>
-        <p className="font-semibold text-gray-800 dark:text-white">
+        <p className="font-semibold    ">
           Quick Link
         </p>
         <div className="flex flex-col items-start mt-5 space-y-2">
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Home
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Who We Are
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Our Philosophy
           </a>
         </div>
       </div>
       <div>
-        <p className="font-semibold text-gray-800 dark:text-white">
+        <p className="font-semibold    ">
           Industries
         </p>
         <div className="flex flex-col items-start mt-5 space-y-2">
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Retail &amp; E-Commerce
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Information Technology
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Finance &amp; Insurance
           </a>
         </div>
       </div>
       <div>
-        <p className="font-semibold text-gray-800 dark:text-white">Services</p>
+        <p className="font-semibold    ">Services</p>
         <div className="flex flex-col items-start mt-5 space-y-2">
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Translation
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Proofreading &amp; Editing
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             Content Creation
           </a>
         </div>
       </div>
       <div>
-        <p className="font-semibold text-gray-800 dark:text-white">
+        <p className="font-semibold    ">
           Contact Us
         </p>
         <div className="flex flex-col items-start mt-5 space-y-2">
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             +880 768 473 4978
           </a>
           <a
             href="#"
-            className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+            className="  transition-colors duration-300   hover:underline hover:text-blue-500"
           >
             info@merakiui.com
           </a>
@@ -138,7 +138,7 @@ export default function Footer() {
           alt=""
         />
       </a>
-      <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">
+      <p className="mt-4 text-sm text-gray-500 sm:mt-0 ">
         © Copyright 2021 - {' '+currentDate}. All Rights Reserved.
       </p>
     </div>
