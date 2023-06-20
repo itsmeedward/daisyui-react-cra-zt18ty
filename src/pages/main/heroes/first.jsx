@@ -58,16 +58,12 @@ useEffect(() => {
             </div>
             <div className="md:w-1/2 lg:w-[47%]">
               <h2 className="text-3xl font-bold   md:text-4xl lg:text-5xl">
-                Just focus on your business startegy
+              Unleash Your Business Potential
               </h2>
               <p className="my-12  ">
-                Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                iure expedita at? Asperiores nemo possimus nesciunt dicta veniam
-                aspernatur quam mollitia. <br />
+              Discover innovative solutions to streamline operations, enhance productivity, and drive growth. <br />
                 <br />
-                Vitae error, quaerat officia delectus voluptatibus explicabo quo
-                pariatur impedit, at reprehenderit aliquam a ipsum quas
-                voluptatem. Quo pariatur asperiores eum amet.
+                Our team of experts is committed to delivering tailored technology services that meet your unique business needs.
               </p>
               <div className="space-y-4 divide-y divide-gray-100 dark:divide-gray-800">
                 <div className="mt-8 flex gap-4 md:items-center">
@@ -88,45 +84,14 @@ useEffect(() => {
                     </svg>
                   </div>
                   <div className="w-5/6">
-                    <h3 className="text-lg font-semibold text-gray-700 dark:text-white">
-                      Chat Anytime
+                    <h3 className="text-lg font-semibold ">
+                    Digital Transformation
                     </h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Asperiores nemo possimus nesciunt quam mollitia.
-                    </p>
+                    Embrace the power of digitalization and leverage cutting-edge technologies to stay ahead of the competition.                    </p>
                   </div>
                 </div>
-                <div className="flex gap-4 pt-4 md:items-center">
-                  <div className="flex h-12 w-12 gap-4 rounded border border-gray-200 dark:border-gray-900">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      className="m-auto h-6 w-6  "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div className="w-5/6">
-                    <h3 className="text-lg font-semibold text-gray-700 dark:text-white">
-                      Real Time Location
-                    </h3>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      Asperiores nemo possimus nesciunt quam mollitia.
-                    </p>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
