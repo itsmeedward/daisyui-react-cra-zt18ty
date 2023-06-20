@@ -97,12 +97,11 @@ useEffect(() => {
           </div>
           <div className="my-20 md:my-32">
             <h3 className="text-2xl font-bold   md:w-2/3 md:text-3xl lg:text-4xl">
-              Customize your customer experience, Go beyond with our top
-              products
+            Empowering Your Digital Journey
             </h3>
             <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px dark:from-gray-700 dark:via-gray-800 dark:to-darker">
-                <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-gray-100 p-8 dark:bg-gray-900">
+                <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-lime-200 p-8 ">
                   <img
                     className="w-10"
                     src="/images/security.webp"
@@ -111,16 +110,15 @@ useEffect(() => {
                     width={512}
                   />
                   <div>
-                    <h4 className="text-xl font-semibold  ">Safelus</h4>
+                    <h4 className="text-xl font-semibold  ">Unlock Insights</h4>
                     <p className="mt-3  ">
-                      Dolorem aliquid officiis quae ipsum nobis libero alias
-                      Iure nobis dicta.
+                    Harness the power of data analytics to gain valuable insights and make informed decisions that drive business success.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px dark:from-gray-700 dark:via-gray-800 dark:to-darker">
-                <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-gray-100 p-8 dark:bg-gray-900">
+                <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-lime-300 p-8 ">
                   <img
                     className="w-10"
                     src="/images/card.webp"
@@ -129,16 +127,15 @@ useEffect(() => {
                     width={512}
                   />
                   <div>
-                    <h4 className="text-xl font-semibold  ">Paylus</h4>
+                    <h4 className="text-xl font-semibold  ">Protect Your Assets</h4>
                     <p className="mt-3  ">
-                      Dolorem aliquid officiis quae ipsum nobis libero alias
-                      Iure nobis dicta.
+                    Ensure the security of your digital assets and safeguard against cyber threats with our robust cybersecurity solutions.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px dark:from-gray-700 dark:via-gray-800 dark:to-darker">
-                <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-gray-100 p-8 dark:bg-gray-900">
+                <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-lime-400 p-8 ">
                   <img
                     className="w-10"
                     src="/images/xp.webp"
@@ -148,11 +145,10 @@ useEffect(() => {
                   />
                   <div>
                     <h4 className="text-xl font-semibold  ">
-                      TL Certification
-                    </h4>
+                    Delight Your Users
+                      </h4>
                     <p className="mt-3  ">
-                      Dolorem aliquid officiis quae ipsum nobis libero alias
-                      Iure nobis dicta.
+                    Create seamless and engaging user experiences that leave a lasting impression and drive customer satisfaction.
                     </p>
                   </div>
                 </div>
@@ -185,16 +181,12 @@ useEffect(() => {
             </div>
             <div className="ml-auto h-full md:w-1/2">
               <h3 className="text-2xl font-bold   md:text-3xl lg:text-4xl">
-                Go beyond with our top products
-              </h3>
+              Accelerate Your Business Growth
+                            </h3>
               <p className="my-12  ">
-                Nobis minus voluptatibus pariatur dignissimos libero quaerat ?
-                Asperiores nemo possimus nesciunt dicta veniam aspernatur quam
-                mollitia. <br />
+              At Greathill, we're dedicated to helping businesses thrive in the digital age. Our comprehensive range of technology solutions and services empower organizations to achieve their goals, drive innovation, and accelerate business growth.  <br />
                 <br />
-                Vitae error, quaerat officia delectus voluptatibus explicabo quo
-                pariatur impedit, at reprehenderit aliquam a ipsum quas
-                voluptatem. Quo pariatur asperiores eum amet.
+                With our expert team, cutting-edge technologies, and customer-centric approach, we deliver results that exceed expectations.
               </p>
               <a
                 href="/pages/register.html"
@@ -212,12 +204,9 @@ useEffect(() => {
         <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
           <div className="text-center">
             <h2 className="text-3xl font-bold   md:text-4xl xl:text-5xl">
-              For growing teams and organizations
-            </h2>
+            Unlock Your Business Potential            </h2>
             <p className="mx-auto mt-6   md:w-3/4 lg:w-3/5">
-              A growing team doesn't need to mean growing pains. Privacy, and
-              the right tool for every step of your journey - Jira Software
-              friction - company size.
+            Ready to take your business to new heights? Let Greathill be your trusted partner on the journey to success. With our innovative technology solutions, strategic insights, and personalized approach, we empower businesses like yours to unlock their full potential. Contact us today and discover how we can help you achieve your goals.
             </p>
           </div>
           <div className="mt-20">
