@@ -51,7 +51,7 @@ useEffect(() => {
     <>
       <div className="pt-32 md:pt-44" id="solution">
         <div className="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0">
-          <div className="flex-row-reverse items-center justify-between space-y-12 text-gray-600 md:flex md:gap-6 lg:gap-12 lg:space-y-0">
+          <div className="flex-row-reverse items-center justify-between space-y-12  md:flex md:gap-6 lg:gap-12 lg:space-y-0">
             <div  className="relative ml-auto h-full md:w-1/2">
                 <div id="animation-container" className=""
                 ></div>
@@ -95,11 +95,11 @@ useEffect(() => {
               </div>
             </div>
           </div>
-          <div className="my-20 md:my-32">
+          <div className="my-20 md:my-32 ">
             <h3 className="text-2xl font-bold   md:w-2/3 md:text-3xl lg:text-4xl">
             Empowering Your Digital Journey
             </h3>
-            <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="text-black relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px dark:from-gray-700 dark:via-gray-800 dark:to-darker">
                 <div className="relative flex h-full flex-col gap-6 rounded-2xl bg-lime-200 p-8 ">
                   <img
@@ -209,228 +209,7 @@ useEffect(() => {
             Ready to take your business to new heights? Let Greathill be your trusted partner on the journey to success. With our innovative technology solutions, strategic insights, and personalized approach, we empower businesses like yours to unlock their full potential. Contact us today and discover how we can help you achieve your goals.
             </p>
           </div>
-          <div className="mt-20">
-            <div className="gap-6 space-y-12 md:flex md:space-y-0">
-              <div className="relative md:w-1/2">
-                <div
-                  className="panel inset-0 flex flex-col justify-center transition duration-500 md:absolute invisible opacity-0 scale-90"
-                  id="panel-0"
-                >
-                  <div>
-                    <h3 className="text-2xl font-bold   md:text-3xl">
-                      Make work flow across teams while connecting back to
-                      company goals
-                    </h3>
-                    <p className="mt-8  ">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! repellat expedita consequatur!
-                      Officiis id consequatur atque doloremque!
-                    </p>
-                    <div className="mt-12 space-y-6">
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/4727/4727266.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold  ">
-                            Together as one
-                          </h4>
-                          <p className="mt-1  ">
-                            Accusantium nemo perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/584/584796.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold  ">New ideas</h4>
-                          <p className="mt-1  ">
-                            Accusalectus atque autem accusantium nemo
-                            perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="panel absolute inset-0 flex flex-col justify-center transition duration-500 visible opacity-100 scale-100"
-                  id="panel-1"
-                >
-                  <div>
-                    <h3 className="text-2xl font-bold   md:text-3xl">
-                      Make work flow across teams while connecting back to
-                      company goals
-                    </h3>
-                    <p className="mt-8  ">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! repellat expedita consequatur!
-                      Officiis id consequatur atque doloremque!
-                    </p>
-                    <div className="mt-12 space-y-6">
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/6106/6106288.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold  ">
-                            Together as one
-                          </h4>
-                          <p className="mt-1  ">
-                            Accusantium nemo perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/2313/2313906.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold  ">New ideas</h4>
-                          <p className="mt-1  ">
-                            Accusalectus atque autem accusantium nemo
-                            perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="panel absolute inset-0 flex flex-col justify-center transition duration-500 invisible opacity-0 scale-90"
-                  id="panel-2"
-                >
-                  <div>
-                    <h3 className="text-2xl font-bold   md:text-3xl">
-                      Make work flow across teams while connecting back to
-                      company goals
-                    </h3>
-                    <p className="mt-8  ">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! repellat expedita consequatur!
-                      Officiis id consequatur atque doloremque!
-                    </p>
-                    <div className="mt-12 space-y-6">
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/3340/3340200.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold  ">
-                            Together as one
-                          </h4>
-                          <p className="mt-1  ">
-                            Accusantium nemo perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/5405/5405929.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold  ">Growth</h4>
-                          <p className="mt-1  ">
-                            Accusalectus atque autem accusantium nemo
-                            perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="-m-4 overflow-hidden p-4 sm:-mx-12 sm:px-12 md:mx-0 md:w-1/2 md:overflow-visible md:px-0">
-                <div className="relative bg-gray-100 before:absolute before:inset-0 before:scale-x-110 before:border-y before:border-gray-200 after:absolute after:inset-0 after:scale-y-110 after:border-x after:border-gray-200 dark:bg-gray-800 dark:before:border-gray-700 dark:after:border-gray-700">
-                  <div className="relative h-96 overflow-clip py-10 sm:h-[32rem] lg:p-20">
-                    <div
-                      data-target="panel-0"
-                      className="panel-preview absolute inset-0 z-0 flex translate-y-[100%] scale-75 items-end overflow-hidden px-6 opacity-50 transition duration-500 sm:px-10"
-                    >
-                      <img
-                        src="./images/screenshots/tailus-home.webp"
-                        className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
-                        alt="tailus screenshot"
-                        width={850}
-                        height={1780}
-                      />
-                    </div>
-                    <div
-                      data-target="panel-1"
-                      className="panel-preview absolute inset-0 z-10 flex translate-y-0 scale-100 items-end overflow-hidden px-6 opacity-100 transition duration-500 sm:px-10"
-                    >
-                      <img
-                        src="./images/screenshots/tailus-home-dark.webp"
-                        className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
-                        alt="tailus screenshot dark-mode"
-                        width={850}
-                        height={1780}
-                      />
-                    </div>
-                    <div
-                      data-target="panel-2"
-                      className="panel-preview absolute inset-0 z-0 flex translate-y-[100%] scale-75 items-end overflow-hidden px-6 opacity-50 transition duration-500 sm:px-10"
-                    >
-                      <img
-                        src="./images/screenshots/tailus-contact.webp"
-                        className="mx-auto h-80 w-96 rounded-t-3xl border object-cover object-top shadow-2xl dark:border-transparent sm:h-[28rem]"
-                        alt="tailus contact screenshot"
-                        width={850}
-                        height={1780}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
 
@@ -448,30 +227,27 @@ useEffect(() => {
                 className="font-heading font-medium text-7xl text-black md:text-10xl xl:text-11xl leading-tight"
                 data-config-id="auto-txt-1-5"
               >
-                Catch the <span className="text-green-700">Software </span>{' '}
-                Revuliton Here
+                Revolutionize Your <span className="text-green-700">Business </span>{' '}
+                 
               </h2>
             </div>
             <span
-              className="block mb-12 font-medium uppercase tracking-widest text-xs text-white leading-4"
+              className="block mb-12 font-medium uppercase tracking-widest text-xs  leading-4"
               data-config-id="auto-txt-2-5"
             >
-              Discover special tools
+              Discover special offers
             </span>
             <h3
               className="mb-14 font-heading text-black font-medium text-3xl xl:text-5xl leading-snug max-w-2xl"
               data-config-id="auto-txt-3-5"
             >
-              A spatial system is a set of rules for how you measure and size
-              your UI elements.
+            Embrace the Power of Innovation
             </h3>
             <p
               className="mb-14 xl:mb-36 text-lg text-black leading-10 text-darkBlueGray-400 max-w-md"
               data-config-id="auto-txt-4-5"
             >
-              Proin nec nibh vel odio dapibus molestie eu id ipsum. Fusce
-              sodales vitae lorem vitae tempus. Etiam nisi ligula, placerat at
-              congue et, vehicula quis ex.
+              In today's rapidly evolving digital landscape, staying ahead of the competition requires embracing innovation. At Greathill, we help businesses revolutionize their operations, transform their customer experiences, and drive growth through cutting-edge technology solutions. With our expertise and forward-thinking approach, we enable you to embrace the power of innovation and unlock new opportunities for success.
             </p>
           </div>
           <div className="relative lg:absolute top-0 right-0 lg:mt-12 w-full lg:w-1/2">
