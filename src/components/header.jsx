@@ -63,13 +63,13 @@ export default function Header() {
             <li>
               <a>Home</a>
             </li>
-            
+          {/*   
             <span className="text-blue-500 justify-between z-40 hover:cursor-pointer hover:bg-blue-300" onClick={handleClick}>Services >  </span>
 
             {isMenuVisible && (
             <ul className="rounded-box p-2 bg-base-100">
             <span className="text-green-500">Web</span>
-      <li><Link to="/services/webservice/website">Web</Link> <ul className="rounded-box p-2 bg-base-100">
+      <li><Link to="/services/webservice/website">Web</Link> <ul className="rounded-box p-2 bg-base-100"> 
             <span className="text-green-500">Blockchain</span>
       
       <li><a>Submenu 2</a></li>
@@ -86,7 +86,7 @@ export default function Header() {
       <li><a>Submenu 2</a></li>
       <li><a>Submenu 3</a></li>
     </ul>
-     )}
+     )}*/}
             <li tabIndex={0} className="z-40">
               <a className="justify-between z-40">
                 About
@@ -153,14 +153,14 @@ export default function Header() {
                 
                 
               </li>
-              <li className="bg-gray-100 text-gray-600">
+            {/*  <li className="bg-gray-100 text-gray-600">
                 <Link to="/about/philosophy">Our Philosophy</Link>
                 
                 
-              </li>
+      </li> */ }
             </ul>
           </li>
-          <li tabIndex={0}>
+         {/* <li tabIndex={0}>
             <Link to="/services">
               Services
               <svg
@@ -213,7 +213,7 @@ export default function Header() {
                 <Link to="/services/webservice/blockchain">Blockchain</Link>
               </li>
             </ul>
-          </li>
+          </li>*/}
 
           <li>
             <Link to="/contact">Contact</Link>
