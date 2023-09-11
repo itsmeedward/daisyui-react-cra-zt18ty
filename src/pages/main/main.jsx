@@ -4,7 +4,6 @@ import Fifth from './heroes/fifth';
 import First from './heroes/first';
 import First101 from './heroes/first1.1';
 import Fourth from './heroes/fourth';
-import Second from './heroes/second';
 import Seventh from './heroes/seventh';
 import Sixth from './heroes/sixth';
 import Third from './heroes/third';
@@ -20,7 +19,7 @@ export default function Main() {
     <>
       <First101 />
       <First />
-      <Second />
+      
       <Third />
       <Fourth />
 
