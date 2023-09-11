@@ -17,35 +17,35 @@ export default function Fourth() {
     <div class="mt-8 sm:mt-12">
       <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <div
-          class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center"
+          class="flex flex-col rounded-lg border border-lime-100 px-4 py-8 text-center"
         >
           <dt class="order-last text-lg font-medium ">
             Total Sales
           </dt>
 
-          <dd class="text-4xl  text-blue-600 md:text-5xl">
+          <dd class="text-4xl  text-lime-600 md:text-5xl">
             $10.2m
           </dd>
         </div>
 
         <div
-          class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center"
+          class="flex flex-col rounded-lg border border-lime-100 px-4 py-8 text-center"
         >
           <dt class="order-last text-lg font-medium ">
             Official Addons
           </dt>
 
-          <dd class="text-4xl  text-blue-600 md:text-5xl">36</dd>
+          <dd class="text-4xl  text-lime-600 md:text-5xl">36</dd>
         </div>
 
         <div
-          class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center"
+          class="flex flex-col rounded-lg border border-lime-100 px-4 py-8 text-center"
         >
           <dt class="order-last text-lg font-medium ">
             Total Addons
           </dt>
 
-          <dd class="text-4xl  text-blue-600 md:text-5xl">112</dd>
+          <dd class="text-4xl  text-lime-600 md:text-5xl">112</dd>
         </div>
       </dl>
     </div>
@@ -67,7 +67,7 @@ export default function Fourth() {
               <div className="md:max-w-md">
                
                 <h2
-                  className="font-heading mb-6 text-4xl md:text-5xl   tracking-tight"
+                  className="font-heading mb-6 text-4xl md:text-5xl  bg-lime-400  tracking-tight"
                   data-config-id="auto-txt-2-2"
                 >
                   All-in-one, next-gen SaaS experience
@@ -81,13 +81,13 @@ export default function Fourth() {
               </div>
             </div>
             <div className="w-full md:w-1/2 p-8">
-              <div className="py-16 px-8 bg-blue rounded-3xl">
+              <div className="py-16 px-8 bg-lime rounded-3xl">
                 <div className="max-w-md mx-auto">
                   <div className="flex flex-wrap -m-3">
                     <div className="w-full p-3">
                       <div className="flex flex-wrap -m-4">
                         <div className="flex flex-col items-center w-auto p-4">
-                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-gray-100 rounded-full">
+                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-lime-100 rounded-full">
                             <svg
                               width={24}
                               height={24}
@@ -95,10 +95,12 @@ export default function Fourth() {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                               data-config-id="auto-svg-1-2"
+                              className="text-lime-400"
                             >
                               <path
                                 d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
                                 fill="#3B82F6"
+                                
                               />
                               <path
                                 d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
@@ -110,7 +112,7 @@ export default function Fourth() {
                               />
                             </svg>
                           </div>
-                          <div className="w-px h-24 bg-gray-200" />
+                          <div className="w-px h-24 bg-lime-200" />
                         </div>
                         <div className="flex-1 p-4">
                           <h3
@@ -128,7 +130,7 @@ export default function Fourth() {
                     <div className="w-full p-3">
                       <div className="flex flex-wrap -m-4">
                         <div className="flex flex-col items-center w-auto p-4">
-                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-gray-100 rounded-full">
+                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-lime-100 rounded-full">
                             <svg
                               width={24}
                               height={24}
@@ -151,7 +153,7 @@ export default function Fourth() {
                               />
                             </svg>
                           </div>
-                          <div className="w-px h-24 bg-gray-200" />
+                          <div className="w-px h-24 bg-lime-200" />
                         </div>
                         <div className="flex-1 p-4">
                           <h3
@@ -169,7 +171,7 @@ export default function Fourth() {
                     <div className="w-full p-3">
                       <div className="flex flex-wrap -m-4">
                         <div className="flex flex-col items-center w-auto p-4">
-                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-gray-100 rounded-full">
+                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-lime-100 rounded-full">
                             <svg
                               width={24}
                               height={24}
@@ -192,7 +194,7 @@ export default function Fourth() {
                               />
                             </svg>
                           </div>
-                          <div className="md:hidden w-px h-24 bg-gray-200" />
+                          <div className="md:hidden w-px h-24 bg-lime-200" />
                         </div>
                         <div className="flex-1 p-4">
                           <h3
