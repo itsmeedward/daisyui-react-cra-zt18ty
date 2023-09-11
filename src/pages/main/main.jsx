@@ -20,11 +20,10 @@ export default function Main() {
       <First101 />
       <First />
       
-      <Third />
       <Fourth />
 
-      <Fifth />
-      <Seventh />
+      
+     
       <Sixth />
     </>
   );

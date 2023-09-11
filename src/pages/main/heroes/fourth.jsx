@@ -59,28 +59,20 @@ export default function Fourth() {
         data-share=""
         data-category="how-it-works-light-reverse"
         data-component-id="31e4676e_02_awz"
-        className="py-16 bg-gray-100 overflow-hidden"
+        className="py-16 overflow-hidden"
       >
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap lg:items-center -m-8">
             <div className="w-full md:w-1/2 p-8">
               <div className="md:max-w-md">
-                <span
-                  className="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest"
-                  data-config-id="auto-txt-1-2"
-                >
-                  How it works
-                </span>
+               
                 <h2
-                  className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight"
+                  className="font-heading mb-6 text-4xl md:text-5xl   tracking-tight"
                   data-config-id="auto-txt-2-2"
                 >
                   All-in-one, next-gen SaaS experience
                 </h2>
-                <p
-                  className="mb-5 text-gray-700 font-bold"
-                  data-config-id="auto-txt-3-2"
-                >
+                <p className="mb-5    " data-config-id="auto-txt-3-2">
                   Yearly access to all products with ipsum dolor sit amet,
                   consectetur adipiscing elit. Suspendisse varius enim in eros
                   elementum tristique.
@@ -89,13 +81,13 @@ export default function Fourth() {
               </div>
             </div>
             <div className="w-full md:w-1/2 p-8">
-              <div className="py-16 px-8 bg-white rounded-3xl">
+              <div className="py-16 px-8 bg-blue rounded-3xl">
                 <div className="max-w-md mx-auto">
                   <div className="flex flex-wrap -m-3">
                     <div className="w-full p-3">
                       <div className="flex flex-wrap -m-4">
                         <div className="flex flex-col items-center w-auto p-4">
-                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-gray-100 rounded-full">
                             <svg
                               width={24}
                               height={24}
@@ -122,15 +114,12 @@ export default function Fourth() {
                         </div>
                         <div className="flex-1 p-4">
                           <h3
-                            className="font-heading mb-3 text-2xl text-gray-900 font-bold"
+                            className="font-heading mb-3 text-2xl  "
                             data-config-id="auto-txt-5-2"
                           >
                             Connect
                           </h3>
-                          <p
-                            className="text-gray-700 font-bold"
-                            data-config-id="auto-txt-6-2"
-                          >
+                          <p className="   " data-config-id="auto-txt-6-2">
                             Easiest Connection Ever
                           </p>
                         </div>
@@ -139,7 +128,7 @@ export default function Fourth() {
                     <div className="w-full p-3">
                       <div className="flex flex-wrap -m-4">
                         <div className="flex flex-col items-center w-auto p-4">
-                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-gray-100 rounded-full">
                             <svg
                               width={24}
                               height={24}
@@ -166,15 +155,12 @@ export default function Fourth() {
                         </div>
                         <div className="flex-1 p-4">
                           <h3
-                            className="font-heading mb-3 text-2xl text-gray-900 font-bold"
+                            className="font-heading mb-3 text-2xl  "
                             data-config-id="auto-txt-7-2"
                           >
                             Store
                           </h3>
-                          <p
-                            className="text-gray-700 font-bold"
-                            data-config-id="auto-txt-8-2"
-                          >
+                          <p className="   " data-config-id="auto-txt-8-2">
                             Easiest Store Ever
                           </p>
                         </div>
@@ -183,7 +169,7 @@ export default function Fourth() {
                     <div className="w-full p-3">
                       <div className="flex flex-wrap -m-4">
                         <div className="flex flex-col items-center w-auto p-4">
-                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                          <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl   bg-gray-100 rounded-full">
                             <svg
                               width={24}
                               height={24}
@@ -210,15 +196,12 @@ export default function Fourth() {
                         </div>
                         <div className="flex-1 p-4">
                           <h3
-                            className="font-heading mb-3 text-2xl text-gray-900 font-bold"
+                            className="font-heading mb-3 text-2xl  "
                             data-config-id="auto-txt-9-2"
                           >
                             Ship
                           </h3>
-                          <p
-                            className="text-gray-700 font-bold"
-                            data-config-id="auto-txt-10-2"
-                          >
+                          <p className="   " data-config-id="auto-txt-10-2">
                             Easiest Ship Ever
                           </p>
                         </div>
